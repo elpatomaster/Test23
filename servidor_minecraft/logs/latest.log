@@ -621,3 +621,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [13:23:59] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
 [13:24:14] [Server thread/INFO]: Villager class_1646['Farmer'/40, l='ServerLevel[world]', x=1244.70, y=64.00, z=1386.37] died, message: 'Farmer was slain by Zombie'
 [13:37:19] [Server thread/INFO]: elpatomaster has made the advancement [Not Today, Thank You]
+[13:49:06] [Server thread/INFO]: elpatomaster lost connection: Disconnected
+[13:49:06] [Server thread/INFO]: elpatomaster left the game
