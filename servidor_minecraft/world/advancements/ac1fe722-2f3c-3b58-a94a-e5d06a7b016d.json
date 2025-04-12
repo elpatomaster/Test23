@@ -805,6 +805,7 @@
       "minecraft:ghast": "2025-04-12 18:49:57 +0000",
       "minecraft:magma_cube": "2025-04-12 17:46:54 +0000",
       "minecraft:spider": "2025-04-12 04:44:32 +0000",
+      "minecraft:piglin_brute": "2025-04-12 19:16:44 +0000",
       "minecraft:zombified_piglin": "2025-04-12 17:48:28 +0000",
       "minecraft:wither_skeleton": "2025-04-12 17:52:43 +0000",
       "minecraft:piglin": "2025-04-12 17:50:29 +0000",
@@ -2680,6 +2681,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/assembling_machine/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/crafting_table/armor/quantum_boots": {
     "criteria": {
       "has_data_storage_chip": "2025-04-12 19:10:09 +0000"
@@ -3118,6 +3125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/armor/ruby_chestplate": {
     "criteria": {
       "has_ruby_gem": "2025-04-12 16:49:19 +0000"
@@ -3214,6 +3227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/crafting_table/cable/glassfiber_cable_6": {
     "criteria": {
       "has_raw_silver": "2025-04-12 16:49:26 +0000"
@@ -3247,6 +3266,12 @@
   "ae2:recipes/misc/network/cables/dense_smart_fluix": {
     "criteria": {
       "has_dusts/redstone": "2025-04-12 16:59:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
     },
     "done": true
   },
@@ -3474,6 +3499,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-12 19:21:29 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/tools/nether_quartz_sword": {
     "criteria": {
       "has_nether_quartz": "2025-04-12 17:48:15 +0000"
@@ -3534,6 +3565,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/small_dust/cinnabar_small_dust_from_dust": {
     "criteria": {
       "has_cinnabar_dust": "2025-04-12 18:03:02 +0000"
@@ -3543,6 +3580,12 @@
   "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-12 16:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
     },
     "done": true
   },
@@ -3585,6 +3628,12 @@
   "zenith:affix/epic": {
     "criteria": {
       "sword": "2025-04-12 18:11:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
     },
     "done": true
   },
@@ -3786,6 +3835,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-12 17:54:59 +0000"
@@ -3867,6 +3922,12 @@
   "techreborn:recipes/industrial_grinder/bauxite_dust_from_bauxite_ore_with_water": {
     "criteria": {
       "has_tag_c_bauxite_ores": "2025-04-12 16:52:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
     },
     "done": true
   },
@@ -4104,6 +4165,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-12 19:18:22 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/centrifuge/magma_cream": {
     "criteria": {
       "has_magma_cream": "2025-04-12 17:46:57 +0000"
@@ -4131,6 +4198,18 @@
   "techreborn:recipes/centrifuge/soul_soil": {
     "criteria": {
       "has_soul_soil": "2025-04-12 18:25:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-12 19:21:29 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/centrifuge/brown_mushroom": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-12 19:21:29 +0000"
     },
     "done": true
   },
