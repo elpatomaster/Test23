@@ -1164,6 +1164,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-04-12 20:52:25 +0000",
       "cooked_mutton": "2025-04-12 04:26:38 +0000",
       "bread": "2025-04-12 04:34:51 +0000",
       "golden_apple": "2025-04-12 19:00:13 +0000",
@@ -4693,6 +4694,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/centrifuge/enchanted_golden_apple": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-04-12 20:52:07 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/tiled_glass_from_colorless_glass_stonecutting": {
     "criteria": {
       "has_colorless_glass": "2025-04-12 19:52:50 +0000"
@@ -4792,6 +4799,12 @@
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-04-12 20:52:07 +0000"
     },
     "done": true
   },
