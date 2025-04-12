@@ -3537,6 +3537,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/extractor/glass_bottle_from_potion": {
+    "criteria": {
+      "has_potion": "2025-04-12 18:42:07 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/tool/ruby_sword": {
     "criteria": {
       "has_ruby_gem": "2025-04-12 16:49:19 +0000"
