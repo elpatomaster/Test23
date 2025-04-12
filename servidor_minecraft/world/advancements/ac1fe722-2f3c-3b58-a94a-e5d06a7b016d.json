@@ -3955,6 +3955,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/centrifuge/red_mushroom": {
+    "criteria": {
+      "has_red_mushroom": "2025-04-12 19:30:57 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/fluid_tank": {
     "criteria": {
       "has_item": "2025-04-12 17:32:46 +0000"
