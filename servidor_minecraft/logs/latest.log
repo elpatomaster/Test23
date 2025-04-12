@@ -1,11 +1,11 @@
-[03:37:09] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.13
-[03:37:09] [ForkJoinPool-1-worker-3/WARN]: Mod create-better-villagers uses the version 1.2.5.j-Fabric-1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'j'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[03:37:09] [main/WARN]: Warnings were found!
+[13:22:22] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.13
+[13:22:23] [ForkJoinPool-1-worker-1/WARN]: Mod create-better-villagers uses the version 1.2.5.j-Fabric-1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'j'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:22:23] [main/WARN]: Warnings were found!
  - Mod 'Bridging Mod' (bridgingmod) 2.5.1+1.20.1 recommends version 7.1.0 or later of modmenu, which is missing!
 	 - You should install version 7.1.0 or later of modmenu for the optimal experience.
  - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-j-build.1631+mc1.20.1!
 	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
-[03:37:09] [main/INFO]: Loading 207 mods:
+[13:22:23] [main/INFO]: Loading 207 mods:
 	- ae2 15.3.4
 	   \-- team_reborn_energy 3.0.0
 	- almostunified 1.20.1-0.9.4
@@ -262,381 +262,132 @@
 	   |-- cardinal-components-entity 5.2.2
 	   |-- playerabilitylib 1.8.0
 	   \-- reach-entity-attributes 2.4.0
-[03:37:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Test23/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:37:10] [main/INFO]: Compatibility level set to JAVA_17
-[03:37:10] [main/WARN]: Reference map 'emi-letsdo-compat-common-refmap.json' for emi_letsdo_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:37:10] [main/WARN]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:37:10] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
-[03:37:10] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 65 options available, 0 override(s) found
-[03:37:10] [main/INFO]: Applying Nashorn fix
-[03:37:10] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:37:10] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:37:10] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:37:11] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[03:37:11] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[03:37:11] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[03:37:11] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[03:37:11] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[03:37:11] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[03:37:11] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
-[03:37:11] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
-[03:37:11] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
-[03:37:11] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[03:37:11] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[03:37:11] [main/WARN]: @Mixin target net.minecraft.class_465 was not found zenith.mixins.json:AbstractContainerScreenAccessor from mod zenith
-[03:37:11] [main/WARN]: Error loading class: net/minecraft/class_332 (java.lang.ClassNotFoundException: net/minecraft/class_332)
-[03:37:11] [main/WARN]: @Mixin target net.minecraft.class_332 was not found zenith.mixins.json:GuiGraphicsAccessor from mod zenith
-[03:37:11] [main/WARN]: Error loading class: net/minecraft/class_8002 (java.lang.ClassNotFoundException: net/minecraft/class_8002)
-[03:37:11] [main/WARN]: @Mixin target net.minecraft.class_8002 was not found zenith.mixins.json:TooltipRenderUtilAccessor from mod zenith
-[03:37:12] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[03:37:12] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[03:37:14] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:37:14] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:37:14] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[03:37:17] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[03:37:18] [main/INFO]: Vanilla bootstrap took 5100 milliseconds
-[03:37:18] [main/WARN]: Config cupboard.json not found, recreating default
-[03:37:18] [main/INFO]: Loaded config for: cupboard.json
-[03:37:18] [main/INFO]: Trying to read 'dml-refabricated/base.json'...
-[03:37:18] [main/INFO]: Config 'dml-refabricated/base.json' could not be found, creating a new one...
-[03:37:18] [main/INFO]: Successfully created default 'dml-refabricated/base.json' config.
-[03:37:18] [main/INFO]: Trying to read 'dml-refabricated/modular-armor.json'...
-[03:37:18] [main/INFO]: Config 'dml-refabricated/modular-armor.json' could not be found, creating a new one...
-[03:37:18] [main/INFO]: Successfully created default 'dml-refabricated/modular-armor.json' config.
-[03:37:18] [main/INFO]: Trying to read 'dml-refabricated/simulacrum.json'...
-[03:37:18] [main/INFO]: Config 'dml-refabricated/simulacrum.json' could not be found, creating a new one...
-[03:37:18] [main/INFO]: Successfully created default 'dml-refabricated/simulacrum.json' config.
-[03:37:19] [main/INFO]: Config loaded
-[03:37:19] [main/WARN]: Creating config: startup
-[03:37:19] [main/WARN]: Config chunksending.json not found, recreating default
-[03:37:19] [main/INFO]: Loaded config for: chunksending.json
-[03:37:19] [main/INFO]: chunksending mod initialized
-[03:37:19] [main/INFO]: Loaded C2B lib.
-[03:37:19] [main/WARN]: Configuration file ./config/copycats-common.toml is not correct. Correcting
-[03:37:19] [main/WARN]: Incorrect key disableMigration was corrected from null to its default, false. 
-[03:37:19] [main/WARN]: Incorrect key features was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_stacked_half_layer was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_vertical_stairs was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_byte was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_vertical_slice was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_wooden_pressure_plate was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_block was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_shaft was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_large_cogwheel was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_fence was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_wall was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_cogwheel was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_vertical_step was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_sliding_door was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_folding_door was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_slope_layer was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_light_weighted_pressure_plate was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_stairs was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_fence_gate was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_slab was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_board was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_wooden_button was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_trapdoor was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_stone_pressure_plate was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_pane was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_half_panel was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_slice was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_beam was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_door was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_iron_door was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_byte_panel was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_corner_slice was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_flat_pane was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_ghost_block was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_fluid_pipe was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_heavy_weighted_pressure_plate was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_iron_trapdoor was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_half_layer was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_stone_button was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_ladder was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_layer was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_slope was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_vertical_slope was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key features.copycat_vertical_half_layer was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key feature_categories was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:19] [main/WARN]: Incorrect key feature_categories.slopes was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key feature_categories.multistates was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key feature_categories.stackables was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key feature_categories.redstone was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key feature_categories.functional was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key feature_categories.create was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Configuration file ./config/copycats-client.toml is not correct. Correcting
-[03:37:19] [main/WARN]: Incorrect key useEnhancedModels was corrected from null to its default, true. 
-[03:37:19] [main/WARN]: Incorrect key disableGraphicsWarnings was corrected from null to its default, false. 
-[03:37:19] [main/WARN]: Incorrect key colorizeMultiStates was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Configuration file ./config/create-common.toml is not correct. Correcting
-[03:37:20] [main/WARN]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key worldgen.disableWorldGen was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Configuration file ./config/create-client.toml is not correct. Correcting
-[03:37:20] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
-[03:37:20] [main/WARN]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
-[03:37:20] [main/WARN]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
-[03:37:20] [main/WARN]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
-[03:37:20] [main/WARN]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
-[03:37:20] [main/WARN]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
-[03:37:20] [main/WARN]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
-[03:37:20] [main/WARN]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
-[03:37:20] [main/WARN]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
-[03:37:20] [main/WARN]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Incorrect key client.rotateWhenSeated was corrected from null to its default, true. 
-[03:37:20] [main/WARN]: Incorrect key client.fluidUnitType was corrected from null to its default, MILLIBUCKETS. 
-[03:37:20] [main/WARN]: Incorrect key client.simplifyFluidUnit was corrected from null to its default, true. 
-[03:37:20] [main/WARN]: Incorrect key client.toolboxHotbarOverlayOffset was corrected from null to its default, 0. 
-[03:37:20] [main/WARN]: Incorrect key client.fluidFogSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key client.fluidFogSettings.honey was corrected from null to its default, 1.0. 
-[03:37:20] [main/WARN]: Incorrect key client.fluidFogSettings.chocolate was corrected from null to its default, 1.0. 
-[03:37:20] [main/WARN]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
-[03:37:20] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
-[03:37:20] [main/WARN]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
-[03:37:20] [main/WARN]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
-[03:37:20] [main/WARN]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
-[03:37:20] [main/WARN]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
-[03:37:20] [main/WARN]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
-[03:37:20] [main/WARN]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
-[03:37:20] [main/WARN]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
-[03:37:20] [main/WARN]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:20] [main/WARN]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
-[03:37:20] [main/WARN]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
-[03:37:20] [main/WARN]: Incorrect key client.trains.showExtendedTrackGraphOnF3 was corrected from null to its default, false. 
-[03:37:21] [main/INFO]: Registering Advancements for: Create: Trading Floor
-[03:37:21] [main/INFO]: Registering Villagers create-better-villagers
-[03:37:21] [main/INFO]: Hello Fabric world!
-[03:37:21] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
-[03:37:21] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
-[03:37:21] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
-[03:37:21] [main/WARN]: Configuration file ./config/create_jetpack-common.toml is not correct. Correcting
-[03:37:21] [main/WARN]: Incorrect key air was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key air.uses_per_tank was corrected from null to its default, 2048. 
-[03:37:21] [main/WARN]: Incorrect key air.uses_per_tank_hover was corrected from null to its default, 20480. 
-[03:37:21] [main/WARN]: Incorrect key speed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key speed.horizontal was corrected from null to its default, 0.02. 
-[03:37:21] [main/WARN]: Incorrect key speed.vertical was corrected from null to its default, 0.4. 
-[03:37:21] [main/WARN]: Incorrect key speed.acceleration was corrected from null to its default, 0.6. 
-[03:37:21] [main/WARN]: Incorrect key speed.hover_descend was corrected from null to its default, -0.03. 
-[03:37:21] [main/WARN]: Incorrect key speed.swim_modifier was corrected from null to its default, 1.8. 
-[03:37:21] [main/WARN]: Incorrect key features was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key features.elytra_boost was corrected from null to its default, 1.25. 
-[03:37:21] [main/WARN]: Configuration file ./config/create_jetpack-client.toml is not correct. Correcting
-[03:37:21] [main/WARN]: Incorrect key overlay was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key overlay.enabled was corrected from null to its default, true. 
-[03:37:21] [main/WARN]: Incorrect key overlay.position was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key overlay.position.x was corrected from null to its default, 6. 
-[03:37:21] [main/WARN]: Incorrect key overlay.position.y was corrected from null to its default, 6. 
-[03:37:21] [main/WARN]: Incorrect key overlay.scale was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key effects was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key effects.seasonal was corrected from null to its default, true. 
-[03:37:21] [main/INFO]: Hello 1.20.1 Create!
-[03:37:21] [main/WARN]: Configuration file ./config/create_new_age-client.toml is not correct. Correcting
-[03:37:21] [main/WARN]: Incorrect key wireSectionsPerMeter was corrected from null to its default, 10. 
-[03:37:21] [main/WARN]: Incorrect key wireThickness was corrected from null to its default, 0.03. 
-[03:37:21] [main/WARN]: Configuration file ./config/create_new_age-common.toml is not correct. Correcting
-[03:37:21] [main/WARN]: Incorrect key suToEnergy was corrected from null to its default, 0.029296875. 
-[03:37:21] [main/WARN]: Incorrect key maxCoils was corrected from null to its default, 8. 
-[03:37:21] [main/WARN]: Incorrect key maxRodsInDirection was corrected from null to its default, 32. 
-[03:37:21] [main/WARN]: Incorrect key conductivityMultiplier was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key maxPathfindingDepth was corrected from null to its default, 32. 
-[03:37:21] [main/WARN]: Incorrect key energiserSpeedMultiplier was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key overheatingMultiplier was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key passiveHeatSourceMultiplier was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key passivePipeHeatLoss was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key boilerRequiredHeatMultiplier was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key ReactorRodHeat was corrected from null to its default, 30.0. 
-[03:37:21] [main/WARN]: Incorrect key ReactorRodHeatLoss was corrected from null to its default, 25.0. 
-[03:37:21] [main/WARN]: Incorrect key solarPanelHeatMultiplier was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key maxWireLength was corrected from null to its default, 16. 
-[03:37:21] [main/WARN]: Incorrect key Motors was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key Motors.motorSuMultiplier was corrected from null to its default, 1.0. 
-[03:37:21] [main/WARN]: Incorrect key Motors.basicMotorCapacity was corrected from null to its default, 16000. 
-[03:37:21] [main/WARN]: Incorrect key Motors.advancedMotorCapacity was corrected from null to its default, 64000. 
-[03:37:21] [main/WARN]: Incorrect key Motors.reinforcedMotorCapacity was corrected from null to its default, 128000. 
-[03:37:21] [main/WARN]: Incorrect key Motors.basicMotorSpeed was corrected from null to its default, 128.0. 
-[03:37:21] [main/WARN]: Incorrect key Motors.advancedMotorSpeed was corrected from null to its default, 256.0. 
-[03:37:21] [main/WARN]: Incorrect key Motors.reinforcedMotorSpeed was corrected from null to its default, 256.0. 
-[03:37:21] [main/WARN]: Incorrect key Motors.basicMotorStress was corrected from null to its default, 512.0. 
-[03:37:21] [main/WARN]: Incorrect key Motors.advancedMotorStress was corrected from null to its default, 2048.0. 
-[03:37:21] [main/WARN]: Incorrect key Motors.reinforcedMotorStress was corrected from null to its default, 8192.0. 
-[03:37:21] [main/WARN]: Incorrect key Motor Extensions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key Motor Extensions.basicMotorExtensionMultiplier was corrected from null to its default, 2.0. 
-[03:37:21] [main/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionMultiplier was corrected from null to its default, 8.0. 
-[03:37:21] [main/WARN]: Incorrect key Motor Extensions.basicMotorExtensionExtraCapacity was corrected from null to its default, 64000. 
-[03:37:21] [main/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionExtraCapacity was corrected from null to its default, 256000. 
-[03:37:21] [main/WARN]: Incorrect key Motor Extensions.basicMotorExtensionScrollStep was corrected from null to its default, 1. 
-[03:37:21] [main/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionScrollStep was corrected from null to its default, 8. 
-[03:37:21] [main/WARN]: Configuration file ./config/createaddition-common.toml is not correct. Correcting
-[03:37:21] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key general.fe_at_max_rpm was corrected from null to its default, 240. 
-[03:37:21] [main/WARN]: Incorrect key general.max_stress was corrected from null to its default, 16384. 
-[03:37:21] [main/WARN]: Incorrect key electric_motor was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key electric_motor.motor_rpm_range was corrected from null to its default, 256. 
-[03:37:21] [main/WARN]: Incorrect key electric_motor.motor_min_consumption was corrected from null to its default, 8. 
-[03:37:21] [main/WARN]: Incorrect key electric_motor.motor_max_input was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key electric_motor.motor_capacity was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key alternator was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key alternator.generator_max_output was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key alternator.generator_capacity was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key alternator.generator_efficiency was corrected from null to its default, 0.75. 
-[03:37:21] [main/WARN]: Incorrect key rolling_mill was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key rolling_mill.rolling_mill_processing_duration was corrected from null to its default, 120. 
-[03:37:21] [main/WARN]: Incorrect key rolling_mill.rolling_mill_stress was corrected from null to its default, 8. 
-[03:37:21] [main/WARN]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key wires.small_connector_max_input was corrected from null to its default, 1000. 
-[03:37:21] [main/WARN]: Incorrect key wires.small_connector_max_output was corrected from null to its default, 1000. 
-[03:37:21] [main/WARN]: Incorrect key wires.small_connector_wire_length was corrected from null to its default, 16. 
-[03:37:21] [main/WARN]: Incorrect key wires.small_light_connector_consumption was corrected from null to its default, 1. 
-[03:37:21] [main/WARN]: Incorrect key wires.large_connector_max_input was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key wires.large_connector_max_output was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key wires.large_connector_wire_length was corrected from null to its default, 32. 
-[03:37:21] [main/WARN]: Incorrect key wires.connector_ignore_face_check was corrected from null to its default, true. 
-[03:37:21] [main/WARN]: Incorrect key wires.connector_allow_passive_io was corrected from null to its default, true. 
-[03:37:21] [main/WARN]: Incorrect key accumulator was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key accumulator.accumulator_max_input was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key accumulator.accumulator_max_output was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key accumulator.accumulator_capacity was corrected from null to its default, 2000000. 
-[03:37:21] [main/WARN]: Incorrect key accumulator.accumulator_max_height was corrected from null to its default, 5. 
-[03:37:21] [main/WARN]: Incorrect key accumulator.accumulator_max_width was corrected from null to its default, 3. 
-[03:37:21] [main/WARN]: Incorrect key portable_energy_interface was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key portable_energy_interface.pei_max_input was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key portable_energy_interface.pei_max_output was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_max_input was corrected from null to its default, 10000. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_charge_rate was corrected from null to its default, 5000. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_recipe_charge_rate was corrected from null to its default, 2000. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_capacity was corrected from null to its default, 40000. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_energy_required was corrected from null to its default, 1000. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_range was corrected from null to its default, 3. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_mob was corrected from null to its default, 3. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_effect_time_mob was corrected from null to its default, 20. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_player was corrected from null to its default, 2. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_effect_time_player was corrected from null to its default, 20. 
-[03:37:21] [main/WARN]: Incorrect key tesla_coil.tesla_coil_fire_cooldown was corrected from null to its default, 20. 
-[03:37:21] [main/WARN]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:21] [main/WARN]: Incorrect key misc.diamond_grit_sandpaper_uses was corrected from null to its default, 1024. 
-[03:37:21] [main/WARN]: Incorrect key misc.barbed_wire_damage was corrected from null to its default, 2.0. 
-[03:37:21] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
-[03:37:21] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
-[03:37:21] [main/INFO]: Create Contraption Terminals starting
-[03:37:21] [main/INFO]: Deep Mob Learning: Refabricated's body is ready!
-[03:37:22] [main/INFO]: Loaded config :emi_loot_config in 417ms
-[03:37:22] [main/INFO]: Look at the cleanse, look at the moves!
-[03:37:22] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loading patreon wing data...
-[03:37:22] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loading patreon trails data...
-[03:37:22] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[03:37:22] [main/INFO]: Registering C2S receiver with id ftbultimine:key_pressed
-[03:37:22] [main/INFO]: Registering C2S receiver with id ftbultimine:mode_changed
-[03:37:22] [main/INFO]: Registering C2S receiver with id ftbultimine:sync_config_to_server
-[03:37:22] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[03:37:22] [main/INFO]: [KONKRETE] Successfully initialized!
-[03:37:22] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[03:37:22] [main/INFO]: Constructing common components for leavesbegone:main
-[03:37:22] [main/INFO]: Shields up!
-[03:37:22] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loaded 33 patreon trails.
-[03:37:22] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loaded 25 patreon wings.
-[03:37:22] [main/INFO]: Definitely not up to no good
-[03:37:22] [main/INFO]: Loading Noisium.
-[03:37:23] [main/INFO]: Registering C2S receiver with id powah:packet
-[03:37:23] [main/INFO]: Constructing common components for puzzleslib:main
-[03:37:23] [main/INFO]: Steam 'n' Rails v1.6.9 initializing! Commit hash: 1219c3f788bf8add5c41073bcf9326c5815c2818 on Create version: 0.5.1j on platform: Fabric
-[03:37:23] [main/INFO]: Registered bogey styles from railways
-[03:37:23] [main/INFO]: Registering data fixers
-[03:37:23] [main/INFO]: Bypassed Mojang DFU
-[03:37:23] [main/INFO]: Instantiating Mojang DFU
-[03:37:24] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
-[03:37:24] [main/INFO]: Registering tracks for Hex Casting
-[03:37:24] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
-[03:37:24] [main/INFO]: Registering tracks for Blue Skies
-[03:37:24] [main/INFO]: Registering tracks for Twilight Forest
-[03:37:24] [main/INFO]: Registering tracks for Biomes O' Plenty
-[03:37:24] [main/INFO]: Registering tracks for Nature's Spirit
-[03:37:24] [main/INFO]: Registering tracks for Dreams and Desires
-[03:37:24] [main/INFO]: Registering tracks for Quark
-[03:37:24] [main/INFO]: Registering tracks for TerraFirmaCraft
-[03:37:24] [main/WARN]: Configuration file ./config/railways-common.toml is not correct. Correcting
-[03:37:24] [main/WARN]: Incorrect key registerMissingTracks was corrected from null to its default, false. 
-[03:37:24] [main/WARN]: Incorrect key disableDatafixer was corrected from null to its default, false. 
-[03:37:24] [main/WARN]: Configuration file ./config/railways-client.toml is not correct. Correcting
-[03:37:24] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key client.showExtendedCouplerDebug was corrected from null to its default, false. 
-[03:37:24] [main/WARN]: Incorrect key client.skipClientDerailing was corrected from null to its default, false. 
-[03:37:24] [main/WARN]: Incorrect key client.useConductorSpyShader was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Incorrect key client.trackOverlayOffset was corrected from null to its default, 0.0. 
-[03:37:24] [main/WARN]: Incorrect key client.useDevCape was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Incorrect key client.renderNormalCap was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Incorrect key client.animatedFlywheels was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.smokeType was corrected from null to its default, CARTOON. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.old was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.old.smokeLifetime was corrected from null to its default, 500. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.old.smokePercentage was corrected from null to its default, 0.75. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.old.smokeQuality was corrected from null to its default, HIGH. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.old.thickerSmoke was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.cartoon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.cartoon.spawnFasterPuffs was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Incorrect key client.smoke.cartoon.spawnSteam was corrected from null to its default, false. 
-[03:37:24] [main/WARN]: Incorrect key client.journeymap was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key client.journeymap.updateRate was corrected from null to its default, 1. 
-[03:37:24] [main/WARN]: Incorrect key client.journeymap.removeObsoleteRate was corrected from null to its default, 200. 
-[03:37:24] [main/WARN]: Configuration file ./config/sophisticatedbackpacks-common.toml is not correct. Correcting
-[03:37:24] [main/WARN]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Configuration file ./config/sophisticatedcore-client.toml is not correct. Correcting
-[03:37:24] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key client.sortButtonsPosition was corrected from null to its default, TITLE_LINE_RIGHT. 
-[03:37:24] [main/WARN]: Incorrect key client.playButtonSound was corrected from null to its default, true. 
-[03:37:24] [main/WARN]: Configuration file ./config/sophisticatedcore-common.toml is not correct. Correcting
-[03:37:24] [main/WARN]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:24] [main/WARN]: Incorrect key common.enabledItems was corrected from null to its default, []. 
-[03:37:24] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
-[03:37:24] [main/INFO]: TechReborn setup done!
-[03:37:24] [main/INFO]: Tom's Storage Setup starting
-[03:37:24] [main/INFO]: Create: Trading Floor initializing! Create version: 0.5.1f on platform: Fabric
-[03:37:24] [main/INFO]: Registering all Create: Trading Floor entries
-[03:37:24] [main/INFO]: Registering Particle Emitters for: Create: Trading Floor
-[03:37:24] [main/INFO]: Finished Initialisation For Mod: trading_floor
-[03:37:24] [main/INFO]: [STDOUT]: TxniLib onInitialize!
-[03:37:24] [main/INFO]: Constructing common components for visualworkbench:main
-[03:37:25] [main/INFO]: Initialised items.
-[03:37:25] [main/INFO]: Initialised blocks.
-[03:37:25] [main/INFO]: Initialised block entities.
-[03:37:25] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[03:37:25] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[03:37:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:37:25] [main/INFO]: Found new data pack fabric, loading it automatically
-[03:37:25] [main/INFO]: Found new data pack lithostitched:breaks_seed_parity, loading it automatically
-[03:37:25] [main/INFO]: Found new data pack zenith:structures, loading it automatically
-[03:37:27] [Worker-Main-1/WARN]: Creating config: unify
-[03:37:27] [Worker-Main-1/WARN]: Creating config: duplicates
-[03:37:27] [Worker-Main-1/WARN]: Creating config: debug
-[03:37:27] [Worker-Main-1/WARN]: The following tags are invalid and will be ignored: [c:iridium_storage_blocks, c:enderium_dusts, c:raw_gold_storage_blocks, c:steel_wires, c:copper_dusts, c:potassium_nitrate_rods, c:raw_mithril_storage_blocks, c:signalum_wires, c:enderium_nuggets, c:iridium_dusts, c:platinum_ores, c:nickel_gems, c:silver_raw_materials, c:raw_peridot_storage_blocks, c:diamond_raw_materials, c:apatite_gears, c:charcoal_rods, c:uranium_plates, c:fluorite_blocks, c:raw_uranium_storage_blocks, c:raw_silver_storage_blocks, c:elementium_nuggets, c:gold_gems, c:nickel_wires, c:tin_gears, c:cinnabar_ingots, c:potassium_nitrate_wires, c:uranium_storage_blocks, c:bitumen_ores, c:mithril_ingots, c:ruby_wires, c:raw_aeternium_blocks, c:cobalt_nuggets, c:cobalt_raw_materials, c:gold_gears, c:lumium_ingots, c:charcoal_plates, c:amber_blocks, c:osmium_gems, c:zinc_rods, c:mithril_gears, c:silver_wires, c:raw_bitumen_blocks, c:lapis_rods, c:potassium_nitrate_blocks, c:raw_iridium_storage_blocks, c:sapphire_gears, c:elementium_gems, c:mithril_raw_materials, c:mithril_storage_blocks, c:sulfur_gears, c:cinnabar_wires, c:lumium_plates, c:amber_gears, c:enderium_ingots, c:peridot_nuggets, c:constantan_wires, c:lead_storage_blocks, c:raw_nickel_storage_blocks, c:enderium_ores, c:fluorite_gears, c:cobalt_rods, c:raw_iron_storage_blocks, c:lumium_gems, c:bronze_gears, c:raw_sulfur_blocks, c:ruby_ingots, c:raw_brass_storage_blocks, c:raw_elementium_ores, c:constantan_gems, c:sapphire_ingots, c:elementium_blocks, c:enderium_plates, c:constantan_storage_blocks, c:raw_osmium_blocks, c:raw_invar_blocks, c:graphite_storage_blocks, c:zinc_storage_blocks, c:raw_constantan_ores, c:signalum_storage_blocks, c:electrum_ores, c:copper_wires, c:lumium_nuggets, c:raw_brass_ores, c:raw_emerald_blocks, c:coal_coke_nuggets, c:raw_steel_storage_blocks, c:diamond_storage_blocks, c:silver_storage_blocks, c:raw_lumium_blocks, c:raw_osmium_storage_blocks, c:netherite_raw_materials, c:raw_coal_ores, c:peridot_gears, c:raw_signalum_storage_blocks, c:cobalt_gears, c:copper_storage_blocks, c:uranium_ingots, c:charcoal_gems, c:bitumen_wires, c:tungsten_storage_blocks, c:peridot_storage_blocks, c:amber_gems, c:iridium_wires, c:coal_wires, c:raw_amber_storage_blocks, c:raw_bitumen_storage_blocks, c:raw_fluorite_blocks, c:tungsten_gems, c:cobalt_gems, c:raw_bronze_ores, c:zinc_gems, c:invar_ores, c:raw_peridot_ores, c:aluminum_gems, c:raw_netherite_storage_blocks, c:mithril_plates, c:fluorite_ores, c:iron_gears, c:raw_tin_storage_blocks, c:raw_diamond_storage_blocks, c:raw_chrome_ores, c:raw_sulfur_ores, c:ruby_storage_blocks, c:obsidian_raw_materials, c:obsidian_wires, c:raw_diamond_blocks, c:cinnabar_plates, c:raw_copper_storage_blocks, c:aluminum_raw_materials, c:aeternium_blocks, c:bitumen_storage_blocks, c:bitumen_blocks, c:peridot_raw_materials, c:chrome_dusts, c:lapis_gems, c:tin_wires, c:aeternium_raw_materials, c:elementium_ores, c:aluminum_storage_blocks, c:platinum_gears, c:invar_raw_materials, c:amber_plates, c:raw_electrum_storage_blocks, c:diamond_ingots, c:fluorite_storage_blocks, c:chrome_plates, c:osmium_raw_materials, c:raw_apatite_storage_blocks, c:potassium_nitrate_plates, c:coal_coke_gears, c:raw_graphite_storage_blocks, c:mithril_nuggets, c:potassium_nitrate_gears, c:chrome_ores, c:raw_cinnabar_storage_blocks, c:raw_osmium_ores, c:steel_ores, c:coal_rods, c:raw_lapis_blocks, c:bitumen_dusts, c:raw_amber_blocks, c:nickel_ores, c:mithril_dusts, c:netherite_gears, c:brass_storage_blocks, c:raw_steel_blocks, c:raw_chrome_storage_blocks, c:gold_dusts, c:coal_raw_materials, c:charcoal_blocks, c:emerald_rods, c:chrome_ingots, c:raw_lumium_ores, c:fluorite_dusts, c:silver_rods, c:cobalt_dusts, c:osmium_storage_blocks, c:raw_tungsten_storage_blocks, c:brass_gears, c:graphite_rods, c:amber_ingots, c:nickel_storage_blocks, c:lumium_gears, c:fluorite_plates, c:enderium_storage_blocks, c:chrome_nuggets, c:sapphire_gems, c:sulfur_plates, c:sulfur_rods, c:netherite_ores, c:graphite_gears, c:electrum_gears, c:apatite_storage_blocks, c:ruby_gears, c:elementium_wires, c:coal_coke_storage_blocks, c:amber_dusts, c:charcoal_raw_materials, c:enderium_gears, c:fluorite_rods, c:raw_bronze_storage_blocks, c:raw_coal_coke_storage_blocks, c:lead_wires, c:electrum_storage_blocks, c:signalum_rods, c:apatite_blocks, c:signalum_plates, c:bitumen_gems, c:aeternium_wires, c:osmium_wires, c:peridot_rods, c:obsidian_rods, c:potassium_nitrate_gems, c:sulfur_raw_materials, c:enderium_gems, c:signalum_nuggets, c:iron_gems, c:signalum_ingots, c:emerald_gems, c:fluorite_ingots, c:obsidian_ingots, c:constantan_rods, c:sapphire_storage_blocks, c:uranium_ores, c:raw_aluminum_storage_blocks, c:raw_graphite_ores, c:amber_ores, c:emerald_raw_materials, c:raw_platinum_storage_blocks, c:elementium_raw_materials, c:graphite_raw_materials, c:bronze_rods, c:coal_ingots, c:sulfur_ingots, c:raw_signalum_blocks, c:raw_invar_storage_blocks, c:copper_gears, c:aeternium_nuggets, c:raw_brass_blocks, c:signalum_dusts, c:raw_uranium_blocks, c:bronze_wires, c:uranium_dusts, c:mithril_ores, c:apatite_dusts, c:enderium_wires, c:emerald_ingots, c:coal_coke_dusts, c:silver_gems, c:iron_dusts, c:raw_obsidian_blocks, c:silver_dusts, c:osmium_rods, c:raw_signalum_ores, c:sulfur_nuggets, c:aeternium_ores, c:raw_chrome_blocks, c:raw_potassium_nitrate_storage_blocks, c:potassium_nitrate_nuggets, c:electrum_gems, c:raw_obsidian_ores, c:lumium_wires, c:elementium_ingots, c:osmium_nuggets, c:graphite_wires, c:lapis_storage_blocks, c:raw_charcoal_storage_blocks, c:raw_bronze_blocks, c:uranium_raw_materials, c:brass_wires, c:platinum_raw_materials, c:coal_gears, c:lumium_raw_materials, c:iridium_gears, c:aluminum_ores, c:elementium_plates, c:raw_aeternium_storage_blocks, c:raw_peridot_blocks, c:lumium_rods, c:fluorite_gems, c:coal_coke_ores, c:raw_mithril_blocks, c:aeternium_rods, c:raw_platinum_ores, c:netherite_wires, c:signalum_blocks, c:charcoal_gears, c:osmium_dusts, c:apatite_ores, c:raw_sapphire_ores, c:enderium_rods, c:uranium_gears, c:ruby_rods, c:bronze_gems, c:sulfur_blocks, c:aluminum_wires, c:raw_cinnabar_blocks, c:raw_potassium_nitrate_ores, c:coal_coke_wires, c:invar_storage_blocks, c:apatite_nuggets, c:sapphire_rods, c:brass_gems, c:platinum_wires, c:elementium_gears, c:platinum_storage_blocks, c:coal_nuggets, c:raw_enderium_blocks, c:coal_coke_blocks, c:raw_emerald_storage_blocks, c:raw_lumium_storage_blocks, c:brass_raw_materials, c:raw_emerald_ores, c:charcoal_storage_blocks, c:uranium_rods, c:raw_charcoal_blocks, c:lead_raw_materials, c:tungsten_dusts, c:chrome_gems, c:invar_gears, c:emerald_storage_blocks, c:raw_cobalt_storage_blocks, c:aeternium_ingots, c:lapis_dusts, c:netherite_gems, c:bitumen_gears, c:raw_potassium_nitrate_blocks, c:bitumen_ingots, c:charcoal_ores, c:raw_elementium_storage_blocks, c:lumium_storage_blocks, c:lapis_raw_materials, c:raw_obsidian_storage_blocks, c:cobalt_storage_blocks, c:bitumen_plates, c:tin_rods, c:cinnabar_nuggets, c:lead_gems, c:aeternium_plates, c:raw_cinnabar_ores, c:aeternium_gems, c:raw_fluorite_storage_blocks, c:iridium_raw_materials, c:signalum_gems, c:lapis_ingots, c:cinnabar_blocks, c:iridium_rods, c:amber_storage_blocks, c:mithril_blocks, c:raw_cobalt_ores, c:ruby_gems, c:bitumen_nuggets, c:aeternium_gears, c:mithril_wires, c:osmium_gears, c:constantan_plates, c:bronze_raw_materials, c:sapphire_wires, c:lead_gears, c:cobalt_wires, c:obsidian_storage_blocks, c:raw_sulfur_storage_blocks, c:constantan_ingots, c:coal_gems, c:potassium_nitrate_ingots, c:amber_nuggets, c:raw_mithril_ores, c:netherite_dusts, c:graphite_blocks, c:raw_electrum_blocks, c:raw_ruby_blocks, c:sulfur_gems, c:lead_rods, c:graphite_gems, c:cobalt_blocks, c:raw_lead_storage_blocks, c:raw_zinc_storage_blocks, c:raw_constantan_blocks, c:raw_sapphire_blocks, c:aeternium_storage_blocks, c:osmium_blocks, c:raw_ruby_ores, c:potassium_nitrate_ores, c:sulfur_wires, c:tungsten_wires, c:tungsten_raw_materials, c:lapis_nuggets, c:raw_coal_coke_blocks, c:raw_lapis_ores, c:iron_storage_blocks, c:ruby_raw_materials, c:bitumen_rods, c:raw_nickel_blocks, c:sapphire_nuggets, c:tin_gems, c:peridot_ingots, c:uranium_gems, c:invar_wires, c:raw_sapphire_storage_blocks, c:raw_electrum_ores, c:raw_enderium_ores, c:silver_gears, c:obsidian_gems, c:raw_apatite_blocks, c:sulfur_ores, c:invar_rods, c:constantan_nuggets, c:iridium_gems, c:enderium_raw_materials, c:uranium_wires, c:constantan_gears, c:diamond_gems, c:obsidian_blocks, c:apatite_wires, c:raw_amber_ores, c:lead_dusts, c:potassium_nitrate_raw_materials, c:electrum_raw_materials, c:raw_bitumen_ores, c:osmium_ores, c:sulfur_storage_blocks, c:raw_apatite_ores, c:raw_invar_ores, c:graphite_plates, c:aeternium_dusts, c:zinc_raw_materials, c:lumium_ores, c:steel_gears, c:raw_graphite_blocks, c:netherite_rods, c:raw_fluorite_ores, c:zinc_gears, c:iron_wires, c:signalum_gears, c:charcoal_wires, c:coal_storage_blocks, c:netherite_storage_blocks, c:netherite_plates, c:tungsten_rods, c:raw_constantan_storage_blocks, c:steel_raw_materials, c:constantan_blocks, c:graphite_dusts, c:cobalt_ingots, c:raw_coal_blocks, c:apatite_gems, c:coal_coke_gems, c:raw_ruby_storage_blocks, c:raw_cobalt_blocks, c:aluminum_gears, c:bitumen_raw_materials, c:chrome_wires, c:raw_aeternium_ores, c:cinnabar_gems, c:cinnabar_raw_materials, c:raw_nickel_ores, c:uranium_blocks, c:tin_storage_blocks, c:mithril_gems, c:platinum_gems, c:osmium_ingots, c:gold_wires, c:raw_diamond_ores, c:raw_coal_storage_blocks, c:tin_raw_materials, c:constantan_ores, c:raw_platinum_blocks, c:steel_rods, c:ruby_nuggets, c:sapphire_raw_materials, c:copper_gems, c:brass_ores, c:fluorite_nuggets, c:coal_coke_raw_materials, c:bronze_storage_blocks, c:osmium_plates, c:lumium_dusts, c:diamond_wires, c:tungsten_gears, c:steel_storage_blocks, c:emerald_gears, c:lapis_gears, c:chrome_raw_materials, c:cobalt_plates, c:peridot_wires, c:invar_gems, c:graphite_ores, c:tin_dusts, c:raw_aluminum_blocks, c:elementium_storage_blocks, c:apatite_raw_materials, c:signalum_raw_materials, c:cobalt_ores, c:graphite_nuggets, c:diamond_rods, c:raw_uranium_ores, c:emerald_wires, c:charcoal_ingots, c:nickel_rods, c:raw_aluminum_ores, c:diamond_gears, c:elementium_dusts, c:coal_coke_ingots, c:potassium_nitrate_dusts, c:coal_coke_plates, c:lumium_blocks, c:chrome_blocks, c:fluorite_wires, c:steel_gems, c:potassium_nitrate_storage_blocks, c:signalum_ores, c:graphite_ingots, c:obsidian_gears, c:gold_storage_blocks, c:aluminum_rods, c:raw_coal_coke_ores, c:cinnabar_rods, c:elementium_rods, c:coal_coke_rods, c:nickel_gears, c:apatite_rods, c:raw_steel_ores, c:enderium_blocks, c:apatite_plates, c:obsidian_ores, c:lapis_wires, c:uranium_nuggets, c:nickel_raw_materials, c:cinnabar_gears, c:fluorite_raw_materials, c:platinum_rods, c:amber_rods, c:chrome_storage_blocks, c:chrome_rods, c:zinc_wires, c:constantan_raw_materials, c:chrome_gears, c:amber_raw_materials, c:raw_lapis_storage_blocks, c:raw_elementium_blocks, c:raw_enderium_storage_blocks, c:mithril_rods, c:raw_netherite_blocks, c:obsidian_nuggets, c:constantan_dusts, c:raw_charcoal_ores, c:apatite_ingots, c:bronze_ores, c:raw_netherite_ores, c:cinnabar_storage_blocks, c:amber_wires, c:charcoal_nuggets]
-[03:37:28] [main/INFO]: parsing loot tables
-[03:37:28] [main/INFO]: finished parsing loot tables
-[03:37:28] [Thread-2/WARN]: Configuration file /workspaces/Test23/servidor_minecraft/./config/sophisticatedcore-common.toml is not correct. Correcting
-[03:37:28] [main/WARN]: Recipe count: 6860
-[03:37:28] [main/WARN]: Item 'minecraft:raw_copper' has multiple preferred tags '[c:copper_raw_materials, c:raw_copper_ores]' for recipe replacement. This needs to be manually fixed by the user.
-[03:37:28] [main/WARN]: Item 'minecraft:raw_gold' has multiple preferred tags '[c:raw_gold_ores, c:gold_raw_materials]' for recipe replacement. This needs to be manually fixed by the user.
-[03:37:28] [main/WARN]: Item 'minecraft:raw_iron' has multiple preferred tags '[c:iron_raw_materials, c:raw_iron_ores]' for recipe replacement. This needs to be manually fixed by the user.
-[03:37:29] [main/WARN]: Recipe count afterwards: 6838 (done in 609.1 ms)
-[03:37:29] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
+[13:22:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Test23/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:22:24] [main/INFO]: Compatibility level set to JAVA_17
+[13:22:24] [main/WARN]: Reference map 'emi-letsdo-compat-common-refmap.json' for emi_letsdo_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:22:24] [main/WARN]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:22:24] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
+[13:22:24] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 65 options available, 0 override(s) found
+[13:22:24] [main/INFO]: Applying Nashorn fix
+[13:22:24] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:22:24] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:22:24] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:22:24] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[13:22:24] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[13:22:24] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[13:22:24] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[13:22:25] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[13:22:25] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[13:22:25] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[13:22:25] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
+[13:22:25] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[13:22:25] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[13:22:25] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[13:22:25] [main/WARN]: @Mixin target net.minecraft.class_465 was not found zenith.mixins.json:AbstractContainerScreenAccessor from mod zenith
+[13:22:25] [main/WARN]: Error loading class: net/minecraft/class_332 (java.lang.ClassNotFoundException: net/minecraft/class_332)
+[13:22:25] [main/WARN]: @Mixin target net.minecraft.class_332 was not found zenith.mixins.json:GuiGraphicsAccessor from mod zenith
+[13:22:25] [main/WARN]: Error loading class: net/minecraft/class_8002 (java.lang.ClassNotFoundException: net/minecraft/class_8002)
+[13:22:25] [main/WARN]: @Mixin target net.minecraft.class_8002 was not found zenith.mixins.json:TooltipRenderUtilAccessor from mod zenith
+[13:22:25] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[13:22:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:22:28] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[13:22:28] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[13:22:28] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[13:22:32] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[13:22:32] [main/INFO]: Vanilla bootstrap took 5873 milliseconds
+[13:22:33] [main/INFO]: Loaded config for: cupboard.json
+[13:22:33] [main/INFO]: Trying to read 'dml-refabricated/base.json'...
+[13:22:33] [main/INFO]: 'dml-refabricated/base.json' was found, loading it..
+[13:22:33] [main/INFO]: Successfully loaded config 'dml-refabricated/base.json'
+[13:22:33] [main/INFO]: Trying to read 'dml-refabricated/modular-armor.json'...
+[13:22:33] [main/INFO]: 'dml-refabricated/modular-armor.json' was found, loading it..
+[13:22:33] [main/INFO]: Successfully loaded config 'dml-refabricated/modular-armor.json'
+[13:22:33] [main/INFO]: Trying to read 'dml-refabricated/simulacrum.json'...
+[13:22:33] [main/INFO]: 'dml-refabricated/simulacrum.json' was found, loading it..
+[13:22:33] [main/INFO]: Successfully loaded config 'dml-refabricated/simulacrum.json'
+[13:22:33] [main/INFO]: Config loaded
+[13:22:33] [main/INFO]: Loaded config for: chunksending.json
+[13:22:33] [main/INFO]: chunksending mod initialized
+[13:22:33] [main/INFO]: Loaded C2B lib.
+[13:22:35] [main/INFO]: Registering Advancements for: Create: Trading Floor
+[13:22:36] [main/INFO]: Registering Villagers create-better-villagers
+[13:22:36] [main/INFO]: Hello Fabric world!
+[13:22:36] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[13:22:36] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[13:22:36] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[13:22:36] [main/INFO]: Hello 1.20.1 Create!
+[13:22:36] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[13:22:36] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[13:22:36] [main/INFO]: Create Contraption Terminals starting
+[13:22:36] [main/INFO]: Deep Mob Learning: Refabricated's body is ready!
+[13:22:37] [main/INFO]: Loaded config :emi_loot_config in 418ms
+[13:22:37] [main/INFO]: Look at the cleanse, look at the moves!
+[13:22:37] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loading patreon wing data...
+[13:22:37] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loading patreon trails data...
+[13:22:37] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[13:22:37] [main/INFO]: Registering C2S receiver with id ftbultimine:key_pressed
+[13:22:37] [main/INFO]: Registering C2S receiver with id ftbultimine:mode_changed
+[13:22:37] [main/INFO]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[13:22:37] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[13:22:37] [main/INFO]: [KONKRETE] Successfully initialized!
+[13:22:37] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[13:22:37] [main/INFO]: Constructing common components for leavesbegone:main
+[13:22:37] [main/INFO]: Shields up!
+[13:22:37] [main/INFO]: Definitely not up to no good
+[13:22:37] [main/INFO]: Loading Noisium.
+[13:22:37] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loaded 25 patreon wings.
+[13:22:37] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loaded 33 patreon trails.
+[13:22:38] [main/INFO]: Registering C2S receiver with id powah:packet
+[13:22:38] [main/INFO]: Constructing common components for puzzleslib:main
+[13:22:38] [main/INFO]: Steam 'n' Rails v1.6.9 initializing! Commit hash: 1219c3f788bf8add5c41073bcf9326c5815c2818 on Create version: 0.5.1j on platform: Fabric
+[13:22:38] [main/INFO]: Registered bogey styles from railways
+[13:22:38] [main/INFO]: Registering data fixers
+[13:22:38] [main/INFO]: Bypassed Mojang DFU
+[13:22:38] [main/INFO]: Instantiating Mojang DFU
+[13:22:39] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[13:22:39] [main/INFO]: Registering tracks for Hex Casting
+[13:22:39] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[13:22:39] [main/INFO]: Registering tracks for Blue Skies
+[13:22:39] [main/INFO]: Registering tracks for Twilight Forest
+[13:22:39] [main/INFO]: Registering tracks for Biomes O' Plenty
+[13:22:39] [main/INFO]: Registering tracks for Nature's Spirit
+[13:22:39] [main/INFO]: Registering tracks for Dreams and Desires
+[13:22:39] [main/INFO]: Registering tracks for Quark
+[13:22:39] [main/INFO]: Registering tracks for TerraFirmaCraft
+[13:22:39] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
+[13:22:39] [main/INFO]: TechReborn setup done!
+[13:22:39] [main/INFO]: Tom's Storage Setup starting
+[13:22:39] [main/INFO]: Create: Trading Floor initializing! Create version: 0.5.1f on platform: Fabric
+[13:22:39] [main/INFO]: Registering all Create: Trading Floor entries
+[13:22:39] [main/INFO]: Registering Particle Emitters for: Create: Trading Floor
+[13:22:39] [main/INFO]: Finished Initialisation For Mod: trading_floor
+[13:22:39] [main/INFO]: [STDOUT]: TxniLib onInitialize!
+[13:22:39] [main/INFO]: Constructing common components for visualworkbench:main
+[13:22:40] [main/INFO]: Initialised items.
+[13:22:40] [main/INFO]: Initialised blocks.
+[13:22:40] [main/INFO]: Initialised block entities.
+[13:22:40] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13:22:40] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13:22:40] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:22:42] [main/WARN]: Adding createaddition:shocking to saved/remote registry.
+[13:22:42] [main/WARN]: Adding dml-refabricated:depth_strider to saved/remote registry.
+[13:22:42] [main/WARN]: Adding dml-refabricated:underwater_haste to saved/remote registry.
+[13:22:42] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[13:22:42] [Worker-Main-3/WARN]: The following tags are invalid and will be ignored: [c:raw_bronze_storage_blocks, c:apatite_storage_blocks, c:uranium_blocks, c:cobalt_ingots, c:potassium_nitrate_nuggets, c:cinnabar_gems, c:enderium_blocks, c:amber_rods, c:raw_ruby_blocks, c:nickel_gears, c:platinum_gems, c:tin_raw_materials, c:sapphire_gems, c:emerald_rods, c:aluminum_rods, c:constantan_ingots, c:fluorite_raw_materials, c:raw_sulfur_storage_blocks, c:signalum_ores, c:charcoal_blocks, c:invar_rods, c:raw_fluorite_ores, c:signalum_gears, c:steel_raw_materials, c:raw_constantan_storage_blocks, c:uranium_dusts, c:charcoal_wires, c:bitumen_dusts, c:steel_gears, c:constantan_gears, c:raw_electrum_ores, c:uranium_wires, c:lumium_raw_materials, c:amber_nuggets, c:enderium_gems, c:raw_electrum_storage_blocks, c:apatite_raw_materials, c:obsidian_storage_blocks, c:iridium_gems, c:aeternium_nuggets, c:lapis_nuggets, c:chrome_ores, c:raw_aluminum_blocks, c:raw_diamond_blocks, c:iron_storage_blocks, c:elementium_dusts, c:potassium_nitrate_gears, c:sulfur_ores, c:diamond_rods, c:sulfur_storage_blocks, c:raw_chrome_ores, c:raw_sulfur_ores, c:raw_graphite_storage_blocks, c:osmium_raw_materials, c:apatite_ingots, c:tin_gems, c:apatite_plates, c:raw_copper_storage_blocks, c:mithril_rods, c:invar_wires, c:cinnabar_gears, c:lead_dusts, c:aluminum_raw_materials, c:osmium_wires, c:elementium_rods, c:raw_fluorite_blocks, c:silver_gears, c:obsidian_nuggets, c:bronze_ores, c:raw_bronze_ores, c:graphite_ores, c:lumium_rods, c:raw_netherite_ores, c:charcoal_raw_materials, c:raw_nickel_blocks, c:electrum_gems, c:signalum_plates, c:raw_aeternium_ores, c:tungsten_wires, c:osmium_ingots, c:amber_gems, c:enderium_gears, c:cinnabar_rods, c:bitumen_wires, c:zinc_wires, c:peridot_gears, c:copper_gears, c:raw_lapis_ores, c:raw_potassium_nitrate_blocks, c:ruby_storage_blocks, c:aeternium_ingots, c:bitumen_ingots, c:obsidian_ores, c:uranium_ores, c:elementium_storage_blocks, c:aeternium_gears, c:ruby_gems, c:zinc_raw_materials, c:raw_constantan_blocks, c:tungsten_rods, c:coal_coke_blocks, c:gold_storage_blocks, c:aluminum_gems, c:graphite_ingots, c:constantan_plates, c:raw_brass_blocks, c:coal_coke_plates, c:coal_nuggets, c:raw_enderium_blocks, c:sulfur_ingots, c:emerald_ingots, c:osmium_plates, c:signalum_ingots, c:graphite_plates, c:elementium_wires, c:bronze_gears, c:electrum_gears, c:ruby_gears, c:coal_raw_materials, c:obsidian_ingots, c:aeternium_gems, c:coal_coke_wires, c:diamond_gems, c:sulfur_plates, c:iridium_rods, c:raw_apatite_storage_blocks, c:raw_cinnabar_storage_blocks, c:emerald_raw_materials, c:brass_ores, c:iridium_raw_materials, c:emerald_gears, c:aeternium_plates, c:bronze_storage_blocks, c:raw_coal_coke_storage_blocks, c:mithril_gems, c:tin_rods, c:fluorite_storage_blocks, c:bitumen_plates, c:fluorite_nuggets, c:electrum_storage_blocks, c:lumium_gears, c:lumium_gems, c:cobalt_plates, c:zinc_rods, c:raw_elementium_storage_blocks, c:raw_cobalt_blocks, c:elementium_gems, c:graphite_storage_blocks, c:lead_wires, c:tungsten_dusts, c:elementium_blocks, c:cinnabar_wires, c:invar_gears, c:raw_lead_storage_blocks, c:sulfur_gems, c:bitumen_ores, c:raw_lapis_storage_blocks, c:graphite_blocks, c:constantan_raw_materials, c:enderium_ores, c:tin_gears, c:uranium_rods, c:osmium_blocks, c:fluorite_blocks, c:elementium_nuggets, c:peridot_storage_blocks, c:iridium_dusts, c:tungsten_storage_blocks, c:raw_aeternium_blocks, c:brass_gems, c:nickel_gems, c:invar_storage_blocks, c:raw_mithril_storage_blocks, c:cobalt_nuggets, c:netherite_gems, c:steel_gems, c:mithril_ingots, c:potassium_nitrate_ores, c:raw_cinnabar_blocks, c:raw_potassium_nitrate_ores, c:bronze_gems, c:enderium_dusts, c:silver_wires, c:nickel_wires, c:elementium_gears, c:coal_gems, c:chrome_blocks, c:charcoal_storage_blocks, c:potassium_nitrate_dusts, c:platinum_storage_blocks, c:raw_coal_coke_ores, c:aluminum_wires, c:copper_storage_blocks, c:signalum_wires, c:raw_brass_ores, c:raw_cobalt_ores, c:raw_mithril_blocks, c:raw_gold_storage_blocks, c:coal_coke_ingots, c:raw_signalum_storage_blocks, c:signalum_raw_materials, c:diamond_gears, c:amber_storage_blocks, c:raw_charcoal_ores, c:mithril_plates, c:platinum_rods, c:uranium_nuggets, c:chrome_gears, c:charcoal_nuggets, c:cobalt_ores, c:lead_rods, c:charcoal_gears, c:aeternium_rods, c:obsidian_wires, c:raw_peridot_storage_blocks, c:constantan_dusts, c:coal_coke_rods, c:copper_dusts, c:amber_wires, c:obsidian_gems, c:signalum_gems, c:zinc_gems, c:cinnabar_storage_blocks, c:cinnabar_raw_materials, c:lapis_wires, c:chrome_wires, c:raw_diamond_ores, c:lead_gears, c:raw_coal_blocks, c:lumium_dusts, c:copper_gems, c:graphite_dusts, c:lead_storage_blocks, c:raw_tin_storage_blocks, c:coal_storage_blocks, c:netherite_rods, c:fluorite_wires, c:lumium_blocks, c:constantan_blocks, c:obsidian_gears, c:netherite_storage_blocks, c:netherite_plates, c:raw_mithril_ores, c:invar_gems, c:diamond_raw_materials, c:raw_apatite_ores, c:cinnabar_blocks, c:osmium_dusts, c:raw_emerald_blocks, c:raw_osmium_storage_blocks, c:bitumen_nuggets, c:diamond_wires, c:steel_wires, c:raw_invar_ores, c:lapis_raw_materials, c:raw_aluminum_ores, c:electrum_ores, c:raw_graphite_blocks, c:osmium_ores, c:aeternium_dusts, c:steel_rods, c:raw_uranium_ores, c:raw_platinum_blocks, c:raw_coal_storage_blocks, c:constantan_ores, c:raw_cobalt_storage_blocks, c:tungsten_gears, c:mithril_storage_blocks, c:nickel_rods, c:silver_raw_materials, c:raw_platinum_ores, c:sapphire_gears, c:raw_brass_storage_blocks, c:lead_gems, c:lumium_storage_blocks, c:tin_dusts, c:raw_charcoal_blocks, c:raw_invar_blocks, c:raw_cinnabar_ores, c:chrome_raw_materials, c:constantan_storage_blocks, c:uranium_raw_materials, c:fluorite_ores, c:steel_storage_blocks, c:brass_gears, c:coal_coke_gems, c:raw_ruby_storage_blocks, c:aluminum_gears, c:enderium_storage_blocks, c:tin_storage_blocks, c:raw_signalum_ores, c:mithril_nuggets, c:mithril_dusts, c:netherite_gears, c:steel_ores, c:gold_dusts, c:coal_coke_storage_blocks, c:coal_coke_raw_materials, c:raw_diamond_storage_blocks, c:obsidian_raw_materials, c:fluorite_dusts, c:raw_bitumen_ores, c:chrome_plates, c:bronze_wires, c:iron_wires, c:nickel_storage_blocks, c:raw_chrome_storage_blocks, c:enderium_raw_materials, c:brass_storage_blocks, c:elementium_ores, c:apatite_gems, c:nickel_raw_materials, c:coal_ingots, c:lumium_ores, c:coal_wires, c:raw_amber_blocks, c:apatite_dusts, c:osmium_storage_blocks, c:raw_lumium_ores, c:graphite_rods, c:apatite_wires, c:diamond_ingots, c:amber_plates, c:emerald_wires, c:sapphire_nuggets, c:diamond_storage_blocks, c:platinum_gears, c:peridot_wires, c:raw_invar_storage_blocks, c:graphite_nuggets, c:raw_ruby_ores, c:amber_ores, c:potassium_nitrate_plates, c:obsidian_blocks, c:aluminum_ores, c:bitumen_blocks, c:raw_elementium_blocks, c:raw_coal_ores, c:constantan_nuggets, c:lapis_storage_blocks, c:raw_enderium_storage_blocks, c:aeternium_blocks, c:invar_ores, c:raw_aeternium_storage_blocks, c:peridot_raw_materials, c:peridot_rods, c:tin_wires, c:amber_raw_materials, c:aluminum_storage_blocks, c:aeternium_raw_materials, c:raw_apatite_blocks, c:lapis_gems, c:raw_steel_ores, c:raw_sapphire_storage_blocks, c:chrome_dusts, c:elementium_plates, c:raw_netherite_blocks, c:raw_elementium_ores, c:raw_amber_storage_blocks, c:fluorite_gears, c:amber_gears, c:raw_nickel_ores, c:graphite_gems, c:lapis_rods, c:amber_ingots, c:gold_wires, c:cobalt_blocks, c:cobalt_gems, c:sulfur_wires, c:osmium_nuggets, c:chrome_storage_blocks, c:raw_nickel_storage_blocks, c:sulfur_rods, c:osmium_gears, c:apatite_rods, c:charcoal_ingots, c:chrome_rods, c:zinc_gears, c:charcoal_plates, c:bitumen_raw_materials, c:coal_rods, c:bronze_rods, c:sapphire_wires, c:netherite_dusts, c:silver_storage_blocks, c:potassium_nitrate_ingots, c:uranium_ingots, c:raw_bitumen_storage_blocks, c:mithril_wires, c:potassium_nitrate_storage_blocks, c:cobalt_dusts, c:electrum_raw_materials, c:raw_steel_blocks, c:cobalt_wires, c:raw_iron_storage_blocks, c:invar_raw_materials, c:charcoal_ores, c:constantan_wires, c:potassium_nitrate_raw_materials, c:gold_gems, c:sapphire_storage_blocks, c:raw_osmium_ores, c:constantan_gems, c:raw_amber_ores, c:obsidian_rods, c:signalum_rods, c:raw_sulfur_blocks, c:lumium_nuggets, c:sapphire_raw_materials, c:graphite_gears, c:ruby_nuggets, c:raw_constantan_ores, c:lapis_gears, c:raw_osmium_blocks, c:cinnabar_nuggets, c:signalum_storage_blocks, c:apatite_blocks, c:raw_emerald_ores, c:apatite_nuggets, c:lumium_wires, c:emerald_storage_blocks, c:raw_enderium_ores, c:iron_gears, c:chrome_gems, c:uranium_storage_blocks, c:sulfur_nuggets, c:potassium_nitrate_blocks, c:brass_wires, c:raw_electrum_blocks, c:osmium_gems, c:raw_sapphire_blocks, c:lead_raw_materials, c:cobalt_rods, c:raw_lumium_storage_blocks, c:platinum_raw_materials, c:raw_bronze_blocks, c:lapis_dusts, c:charcoal_rods, c:tungsten_raw_materials, c:cinnabar_plates, c:enderium_nuggets, c:lumium_ingots, c:uranium_gears, c:lumium_plates, c:apatite_gears, c:graphite_wires, c:aeternium_ores, c:platinum_ores, c:tungsten_gems, c:raw_netherite_storage_blocks, c:ruby_rods, c:sulfur_blocks, c:coal_coke_ores, c:cobalt_raw_materials, c:coal_coke_dusts, c:amber_blocks, c:silver_gems, c:raw_emerald_storage_blocks, c:cinnabar_ingots, c:fluorite_gems, c:platinum_wires, c:lapis_ingots, c:bitumen_rods, c:signalum_blocks, c:potassium_nitrate_wires, c:netherite_wires, c:coal_gears, c:raw_silver_storage_blocks, c:sulfur_raw_materials, c:bitumen_storage_blocks, c:coal_coke_nuggets, c:raw_sapphire_ores, c:raw_platinum_storage_blocks, c:uranium_plates, c:apatite_ores, c:aeternium_storage_blocks, c:iron_gems, c:constantan_rods, c:potassium_nitrate_rods, c:raw_chrome_blocks, c:peridot_ingots, c:uranium_gems, c:raw_potassium_nitrate_storage_blocks, c:raw_coal_coke_blocks, c:aeternium_wires, c:raw_peridot_blocks, c:elementium_ingots, c:enderium_ingots, c:raw_peridot_ores, c:ruby_raw_materials, c:mithril_gears, c:iridium_gears, c:elementium_raw_materials, c:raw_zinc_storage_blocks, c:bitumen_gears, c:raw_bitumen_blocks, c:raw_tungsten_storage_blocks, c:chrome_nuggets, c:silver_dusts, c:graphite_raw_materials, c:raw_charcoal_storage_blocks, c:osmium_rods, c:netherite_raw_materials, c:potassium_nitrate_gems, c:mithril_blocks, c:chrome_ingots, c:fluorite_plates, c:sapphire_rods, c:emerald_gems, c:nickel_ores, c:charcoal_gems, c:raw_uranium_blocks, c:raw_lapis_blocks, c:raw_obsidian_ores, c:raw_fluorite_storage_blocks, c:raw_obsidian_blocks, c:raw_signalum_blocks, c:enderium_wires, c:mithril_raw_materials, c:iridium_wires, c:iron_dusts, c:mithril_ores, c:ruby_wires, c:gold_gears, c:raw_aluminum_storage_blocks, c:fluorite_rods, c:cobalt_storage_blocks, c:silver_rods, c:signalum_dusts, c:ruby_ingots, c:bronze_raw_materials, c:enderium_plates, c:raw_steel_storage_blocks, c:iridium_storage_blocks, c:cobalt_gears, c:coal_coke_gears, c:raw_uranium_storage_blocks, c:enderium_rods, c:peridot_nuggets, c:raw_graphite_ores, c:fluorite_ingots, c:amber_dusts, c:raw_obsidian_storage_blocks, c:signalum_nuggets, c:raw_lumium_blocks, c:bitumen_gems, c:brass_raw_materials, c:sulfur_gears, c:copper_wires, c:netherite_ores, c:sapphire_ingots, c:raw_iridium_storage_blocks, c:zinc_storage_blocks]
+[13:22:43] [main/INFO]: parsing loot tables
+[13:22:43] [main/INFO]: finished parsing loot tables
+[13:22:43] [main/WARN]: Recipe count: 6860
+[13:22:43] [main/WARN]: Item 'minecraft:raw_copper' has multiple preferred tags '[c:raw_copper_ores, c:copper_raw_materials]' for recipe replacement. This needs to be manually fixed by the user.
+[13:22:43] [main/WARN]: Item 'minecraft:raw_gold' has multiple preferred tags '[c:gold_raw_materials, c:raw_gold_ores]' for recipe replacement. This needs to be manually fixed by the user.
+[13:22:43] [main/WARN]: Item 'minecraft:raw_iron' has multiple preferred tags '[c:raw_iron_ores, c:iron_raw_materials]' for recipe replacement. This needs to be manually fixed by the user.
+[13:22:44] [main/WARN]: Recipe count afterwards: 6838 (done in 640.0 ms)
+[13:22:44] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbrick'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -662,21 +413,21 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbri
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.13.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.13.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -702,563 +453,170 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.13.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.13.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[03:37:29] [main/WARN]: Your custom createaddition:compat/ae2/charged_certus_quartz recipe (createaddition:compat/ae2/charged_certus_quartz) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[03:37:29] [main/INFO]: Loaded 64 recipes
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_iron_trapdoor: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_half_layer: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_beam: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_flat_pane: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_panel: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_flat_pane_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_byte: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_folding_door_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_light_weighted_pressure_plate: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wooden_button: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_board: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_shaft: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_pane: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fence: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_layer: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_folding_door: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_sliding_door: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_iron_door: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_ghost_block: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stone_pressure_plate: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_byte_panel: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stacked_half_layer: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_heavy_weighted_pressure_plate: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stone_button: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_corner_slice: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_door: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stacked_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_pane_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_sliding_door_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wall: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fence_gate: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_ladder: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_large_cogwheel: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wooden_pressure_plate: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_cogwheel: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fluid_pipe: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_layer: Missing criteria, expected to find a JsonObject
-[03:37:29] [main/INFO]: Loaded 5646 advancements
-[03:37:29] [main/INFO]: Registered 16 gear_sets.
-[03:37:29] [main/INFO]: Registered 6 rarities.
-[03:37:29] [main/INFO]: Registered 81 affixes.
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category helmetRequired: 3; Provided: 2
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category bootsRequired: 3; Provided: 2
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category helmetRequired: 4; Provided: 2
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bootsRequired: 4; Provided: 2
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bowRequired: 5; Provided: 4
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category crossbowRequired: 5; Provided: 4
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category pickaxeRequired: 5; Provided: 4
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shovelRequired: 5; Provided: 4
-[03:37:29] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shieldRequired: 5; Provided: 4
-[03:37:29] [main/INFO]: Registered 19 gems.
-[03:37:29] [main/INFO]: Registered 65 affix_loot_entries.
-[03:37:29] [main/INFO]: Registered 17 bosses.
-[03:37:29] [main/INFO]: Registered 8 rogue_spawners.
-[03:37:29] [main/INFO]: Registered 5 minibosses.
-[03:37:29] [main/INFO]: Registered 28 wanderer_trades.
-[03:37:29] [main/INFO]: Registered 29 enchanting_stats.
-[03:37:29] [main/INFO]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
-[03:37:29] [main/INFO]: Applied 671 biome modifications to 65 of 65 new biomes in 39.80 ms
-[03:37:29] [Server thread/WARN]: Configuration file ./config/create-server.toml is not correct. Correcting
-[03:37:29] [Server thread/WARN]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.allowFillingBySpout was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanProcessingTime was corrected from null to its default, 150. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.rollerFillDepth was corrected from null to its default, 12. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.contraptionPlacing was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.minecartContraptionInContainers was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.contraptions.stabiliseStableContraptions was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stats.mediumSpeed was corrected from null to its default, 30.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stats.fastSpeed was corrected from null to its default, 100.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stats.mediumStressImpact was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stats.highStressImpact was corrected from null to its default, 8.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stats.mediumCapacity was corrected from null to its default, 256.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stats.highCapacity was corrected from null to its default, 1024.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.elevator_pulley was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.netherite_backtank was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.large_water_wheel was corrected from null to its default, 128.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 32.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.fluidFillPlaceFluidSourceBlocks was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key fluids.pipesPlaceFluidSourceBlocks was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.psiTimeout was corrected from null to its default, 60. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.brassTunnelTimer was corrected from null to its default, 10. 
-[03:37:29] [Server thread/WARN]: Incorrect key logistics.seatHostileMobs was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.maxSchematics was corrected from null to its default, 10. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.maxTotalSchematicSize was corrected from null to its default, 256. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
-[03:37:29] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonShotsPerGunpowder was corrected from null to its default, 400. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.maxSymmetryWandRange was corrected from null to its default, 50. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.placementAssistRange was corrected from null to its default, 12. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.toolboxRange was corrected from null to its default, 10. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.airInBacktank was corrected from null to its default, 900. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.enchantedBacktankCapacity was corrected from null to its default, 300. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.maxExtendoGripActions was corrected from null to its default, 1000. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.maxPotatoCannonShots was corrected from null to its default, 200. 
-[03:37:29] [Server thread/WARN]: Incorrect key equipment.potatoCannonWorldModification was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
-[03:37:29] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
-[03:37:29] [Server thread/WARN]: Configuration file ./config/create_enchantment_industry-server.toml is not correct. Correcting
-[03:37:29] [Server thread/WARN]: Incorrect key disenchanterTankCapacity was corrected from null to its default, 1000. 
-[03:37:29] [Server thread/WARN]: Incorrect key copierTankCapacity was corrected from null to its default, 4000. 
-[03:37:29] [Server thread/WARN]: Incorrect key blazeEnchanterTankCapacity was corrected from null to its default, 2000. 
-[03:37:30] [Server thread/WARN]: Incorrect key maxHyperEnchantingLevelExtension was corrected from null to its default, 2. 
-[03:37:30] [Server thread/WARN]: Incorrect key deployerXpDropChance was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key enableHyperEnchant was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key enchantByBlazeEnchanterCostCoefficient was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key hyperEnchantByBlazeEnchanterCostCoefficient was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key copyEnchantedBookCostCoefficient was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key copyEnchantedBookWithHyperExperienceCostCoefficient was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key copyWrittenBookCostPerPage was corrected from null to its default, 5. 
-[03:37:30] [Server thread/WARN]: Incorrect key copyNameTagCost was corrected from null to its default, 7. 
-[03:37:30] [Server thread/WARN]: Incorrect key copyTrainScheduleCost was corrected from null to its default, 10. 
-[03:37:30] [Server thread/WARN]: Incorrect key copyClipboardCost was corrected from null to its default, 10. 
-[03:37:30] [Server thread/WARN]: Incorrect key crushingWheelDropExpRate was corrected from null to its default, 0.30000001192092896. 
-[03:37:30] [Server thread/WARN]: Incorrect key crushingWheelDropExpScale was corrected from null to its default, 0.3400000035762787. 
-[03:37:30] [Server thread/WARN]: Incorrect key copyingWrittenBookAlwaysGetOriginalVersion was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Configuration file ./config/leavesbegone-server.toml is not correct. Correcting
-[03:37:30] [Server thread/WARN]: Incorrect key maximum_decay_ticks was corrected from null to its default, 20. 
-[03:37:30] [Server thread/WARN]: Incorrect key minimum_decay_ticks was corrected from null to its default, 5. 
-[03:37:30] [Server thread/INFO]: Loading server config for leavesbegone
-[03:37:30] [Thread-2/INFO]: Reloading server config for leavesbegone
-[03:37:30] [Thread-2/INFO]: Reloading server config for leavesbegone
-[03:37:30] [Thread-2/INFO]: Reloading server config for leavesbegone
-[03:37:30] [Server thread/WARN]: Configuration file ./config/railways-server.toml is not correct. Correcting
-[03:37:30] [Server thread/WARN]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key misc.strictCoupler was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key misc.flipDistantSwitches was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key misc.switchPlacementRange was corrected from null to its default, 64. 
-[03:37:30] [Server thread/WARN]: Incorrect key misc.creeperTrackDamage was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key misc.handcarHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
-[03:37:30] [Server thread/WARN]: Incorrect key semaphores was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key semaphores.simplifiedPlacement was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key semaphores.flipYellowOrder was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key conductors was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key conductors.mustOwnBoundTrain was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key conductors.maxConductorVentLength was corrected from null to its default, 64. 
-[03:37:30] [Server thread/WARN]: Incorrect key conductors.whistleRebindRate was corrected from null to its default, 10. 
-[03:37:30] [Server thread/WARN]: Incorrect key journeymap was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key journeymap.farTrainSyncTicks was corrected from null to its default, 200. 
-[03:37:30] [Server thread/WARN]: Incorrect key journeymap.nearTrainSyncTicks was corrected from null to its default, 5. 
-[03:37:30] [Server thread/WARN]: Incorrect key realism was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key realism.realisticTrains was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key realism.realisticFuelTanks was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Configuration file ./config/sophisticatedbackpacks-server.toml is not correct. Correcting
-[03:37:30] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [jukebox_upgrade|1, stack_upgrades|3, furnace_upgrades|1]. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
-[03:37:30] [Server thread/WARN]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
-[03:37:30] [Server thread/INFO]: Starting background profiler...
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
-[03:37:30] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[03:37:30] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[03:37:30] [Server thread/INFO]: Loading properties
-[03:37:30] [Server thread/INFO]: Default game type: SURVIVAL
-[03:37:30] [Server thread/INFO]: Generating keypair
-[03:37:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:37:30] [Server thread/INFO]: Using epoll channel type
-[03:37:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:37:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:37:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:37:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:37:31] [Server thread/INFO]: Preparing level "world"
-[03:37:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:37:33] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[03:37:35] [Server thread/INFO]: Preparing spawn area: 0%
-[03:37:35] [Server thread/INFO]: Preparing spawn area: 0%
-[03:37:35] [Server thread/INFO]: Preparing spawn area: 0%
-[03:37:35] [Server thread/INFO]: Preparing spawn area: 0%
-[03:37:35] [Server thread/INFO]: Preparing spawn area: 0%
-[03:37:36] [Server thread/INFO]: Preparing spawn area: 0%
-[03:37:36] [Server thread/INFO]: Preparing spawn area: 0%
-[03:37:37] [Server thread/INFO]: Time elapsed: 3828 ms
-[03:37:37] [Server thread/INFO]: Done (6.678s)! For help, type "help"
-[03:37:37] [Server thread/WARN]: Dedicated server took 29.315 seconds to load
-[03:37:37] [Server thread/WARN]: Config lootintegrations.json not found, recreating default
-[03:37:37] [Server thread/INFO]: Loaded config for: lootintegrations.json
-[03:37:37] [Server thread/WARN]: Config smoothchunk.json not found, recreating default
-[03:37:37] [Server thread/INFO]: Loaded config for: smoothchunk.json
-[03:37:37] [Server thread/WARN]: Config logprot.json not found, recreating default
-[03:37:37] [Server thread/INFO]: Loaded config for: logprot.json
-[03:37:37] [Server thread/INFO]: Start loading plugin from Applied Energistics 2
-[03:37:37] [Server thread/INFO]: Start loading plugin from Balm
-[03:37:37] [Server thread/INFO]: Start loading plugin from Jade
-[03:37:37] [Server thread/INFO]: Start loading plugin from Jade
-[03:37:37] [Server thread/INFO]: Start loading plugin from Jade
-[03:37:37] [Server thread/INFO]: Start loading plugin from Waystones
-[03:37:37] [Server thread/INFO]: Start loading plugin from Zenith
-[03:37:37] [Server thread/INFO]: Start loading plugin from Zenith
-[03:37:37] [Server thread/INFO]: Start loading plugin from Zenith
-[03:37:37] [Server thread/INFO]: (Re-)initialised bulk cell compression.
-[03:37:37] [Server thread/INFO]: Loaded values for 74 compatible attributes.
-[03:37:37] [Server thread/INFO]: Creating a new config file at /workspaces/Test23/servidor_minecraft/./config/attributefix.json.
-[03:37:37] [Server thread/INFO]: Saving config file. 74 entries.
-[03:37:37] [Server thread/INFO]: Applying changes for 74 attributes.
-[03:37:37] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[03:37:37] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[03:38:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@56d27ef[id=<null>,name=Juanchole10,properties={},legacy=false] (/10.241.66.33:56993) lost connection: Disconnected
-[03:39:10] [Server thread/INFO]: Juanchole10[/10.241.66.33:57042] logged in with entity id 229 at (9.5, 101.0, -46.5)
-[03:39:10] [Server thread/INFO]: Syncing config to Juanchole10 (ac1fe722-2f3c-3b58-a94a-e5d06a7b016d)
-[03:39:10] [Server thread/INFO]: Juanchole10 joined the game
-[03:39:14] [Server thread/INFO]: Juanchole10 lost connection: Disconnected
-[03:39:14] [Server thread/INFO]: Juanchole10 left the game
-[03:41:40] [Server thread/INFO]: elpatomaster[/10.241.215.23:59267] logged in with entity id 331 at (6.5, 103.0, -49.5)
-[03:41:40] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
-[03:41:40] [Server thread/INFO]: elpatomaster joined the game
-[03:41:44] [Worker-Main-1/WARN]: Empty height range: [-55 absolute--60 absolute]
-[03:41:44] [Worker-Main-1/WARN]: Empty height range: [-55 absolute--60 absolute]
-[03:41:44] [Worker-Main-1/WARN]: Empty height range: [-55 absolute--60 absolute]
-[03:47:53] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
-[03:47:53] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
-[03:48:35] [Server thread/INFO]: Made elpatomaster a server operator
-[03:48:39] [Server thread/INFO]: [elpatomaster: Gamerule playersSleepingPercentage is now set to: 0]
-[03:50:26] [Server thread/INFO]: elpatomaster has made the advancement [Monster Hunter]
-[03:52:39] [Server thread/INFO]: Juanchole10[/10.241.66.33:58278] logged in with entity id 2585 at (9.5, 101.0, -46.5)
-[03:52:39] [Server thread/INFO]: Syncing config to Juanchole10 (ac1fe722-2f3c-3b58-a94a-e5d06a7b016d)
-[03:52:39] [Server thread/INFO]: Juanchole10 joined the game
-[03:52:40] [Server thread/INFO]: elpatomaster was shot by Skeleton
-[03:52:54] [Server thread/INFO]: [elpatomaster: Set the time to 1000]
-[03:54:01] [Server thread/INFO]: Juanchole10 was blown up by Creeper
-[03:56:41] [Server thread/WARN]: Tried to load a block entity for block Block{powah:uraninite_ore_poor} but failed at location class_2338{x=578, y=58, z=-196}
+[13:22:44] [main/WARN]: Your custom createaddition:compat/ae2/charged_certus_quartz recipe (createaddition:compat/ae2/charged_certus_quartz) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[13:22:44] [main/INFO]: Loaded 64 recipes
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_iron_trapdoor: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_half_layer: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_beam: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_flat_pane: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_panel: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_flat_pane_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_byte: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_folding_door_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_light_weighted_pressure_plate: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wooden_button: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_board: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_shaft: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_pane: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fence: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_layer: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_folding_door: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_sliding_door: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_iron_door: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_ghost_block: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stone_pressure_plate: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_byte_panel: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stacked_half_layer: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_heavy_weighted_pressure_plate: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stone_button: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_corner_slice: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_door: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stacked_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_pane_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_sliding_door_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wall: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fence_gate: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_ladder: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_large_cogwheel: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_half_layer_from_conversion: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_wooden_pressure_plate: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_cogwheel: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_fluid_pipe: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_layer: Missing criteria, expected to find a JsonObject
+[13:22:44] [main/INFO]: Loaded 5646 advancements
+[13:22:44] [main/INFO]: Registered 16 gear_sets.
+[13:22:44] [main/INFO]: Registered 6 rarities.
+[13:22:44] [main/INFO]: Registered 81 affixes.
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category helmetRequired: 3; Provided: 2
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category bootsRequired: 3; Provided: 2
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bowRequired: 5; Provided: 4
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category crossbowRequired: 5; Provided: 4
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category pickaxeRequired: 5; Provided: 4
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shovelRequired: 5; Provided: 4
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shieldRequired: 5; Provided: 4
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category helmetRequired: 4; Provided: 2
+[13:22:44] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bootsRequired: 4; Provided: 2
+[13:22:44] [main/INFO]: Registered 19 gems.
+[13:22:44] [main/INFO]: Registered 65 affix_loot_entries.
+[13:22:44] [main/INFO]: Registered 17 bosses.
+[13:22:44] [main/INFO]: Registered 8 rogue_spawners.
+[13:22:44] [main/INFO]: Registered 5 minibosses.
+[13:22:44] [main/INFO]: Registered 28 wanderer_trades.
+[13:22:44] [main/INFO]: Registered 29 enchanting_stats.
+[13:22:44] [main/INFO]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
+[13:22:45] [main/INFO]: Applied 671 biome modifications to 65 of 65 new biomes in 28.87 ms
+[13:22:45] [Server thread/INFO]: Loading server config for leavesbegone
+[13:22:45] [Thread-2/INFO]: Reloading server config for leavesbegone
+[13:22:45] [Thread-2/INFO]: Reloading server config for leavesbegone
+[13:22:45] [Server thread/INFO]: Starting background profiler...
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
+[13:22:45] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[13:22:45] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:22:45] [Server thread/INFO]: Loading properties
+[13:22:45] [Server thread/INFO]: Default game type: SURVIVAL
+[13:22:45] [Server thread/INFO]: Generating keypair
+[13:22:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:22:46] [Server thread/INFO]: Using epoll channel type
+[13:22:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:22:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:22:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:22:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:22:46] [Server thread/INFO]: Preparing level "world"
+[13:22:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:22:46] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[13:22:48] [Server thread/INFO]: Preparing spawn area: 0%
+[13:22:48] [Server thread/INFO]: Preparing spawn area: 0%
+[13:22:48] [Server thread/INFO]: Preparing spawn area: 0%
+[13:22:48] [Server thread/INFO]: Preparing spawn area: 0%
+[13:22:49] [Server thread/INFO]: Time elapsed: 2235 ms
+[13:22:49] [Server thread/INFO]: Done (2.860s)! For help, type "help"
+[13:22:49] [Server thread/WARN]: Dedicated server took 27.314 seconds to load
+[13:22:49] [Server thread/INFO]: Loaded config for: lootintegrations.json
+[13:22:49] [Server thread/INFO]: Loaded config for: smoothchunk.json
+[13:22:49] [Server thread/INFO]: Loaded config for: logprot.json
+[13:22:49] [Server thread/INFO]: Start loading plugin from Applied Energistics 2
+[13:22:49] [Server thread/INFO]: Start loading plugin from Balm
+[13:22:49] [Server thread/INFO]: Start loading plugin from Jade
+[13:22:49] [Server thread/INFO]: Start loading plugin from Jade
+[13:22:49] [Server thread/INFO]: Start loading plugin from Jade
+[13:22:49] [Server thread/INFO]: Start loading plugin from Waystones
+[13:22:49] [Server thread/INFO]: Start loading plugin from Zenith
+[13:22:49] [Server thread/INFO]: Start loading plugin from Zenith
+[13:22:49] [Server thread/INFO]: Start loading plugin from Zenith
+[13:22:49] [Server thread/INFO]: (Re-)initialised bulk cell compression.
+[13:22:49] [Server thread/INFO]: Loaded values for 74 compatible attributes.
+[13:22:49] [Server thread/INFO]: Loaded 74 values from config.
+[13:22:49] [Server thread/INFO]: Saving config file. 74 entries.
+[13:22:49] [Server thread/INFO]: Applying changes for 74 attributes.
+[13:22:49] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13:22:49] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13:23:39] [Server thread/INFO]: elpatomaster[/10.241.215.23:51057] logged in with entity id 24 at (1265.1042121882165, 76.0, 1384.9137260230339)
+[13:23:39] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
+[13:23:39] [Server thread/INFO]: elpatomaster joined the game
+[13:23:59] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
+[13:23:59] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[13:24:14] [Server thread/INFO]: Villager class_1646['Farmer'/40, l='ServerLevel[world]', x=1244.70, y=64.00, z=1386.37] died, message: 'Farmer was slain by Zombie'
