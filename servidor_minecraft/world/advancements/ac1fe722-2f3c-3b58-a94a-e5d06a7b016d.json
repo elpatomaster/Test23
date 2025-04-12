@@ -2635,6 +2635,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-04-12 18:11:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-12 16:55:26 +0000"
@@ -2845,6 +2851,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/blast_furnace/gold_ingot_from_helmet": {
+    "criteria": {
+      "has_golden_helmet": "2025-04-12 18:11:33 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/network/cables/smart_fluix": {
     "criteria": {
       "has_dusts/redstone": "2025-04-12 16:59:30 +0000"
@@ -2953,6 +2965,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/ornate_iron_window": {
+    "criteria": {
+      "has_ingredient": "2025-04-12 18:06:21 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/centrifuge/soul_sand": {
     "criteria": {
       "has_soul_sand": "2025-04-12 17:50:17 +0000"
@@ -3028,6 +3046,12 @@
   "minecraft:recipes/building_blocks/blackstone_slab": {
     "criteria": {
       "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-04-12 18:05:50 +0000"
     },
     "done": true
   },
@@ -3193,9 +3217,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-04-12 18:06:21 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/grinder/ruby_dust": {
     "criteria": {
       "has_tag_c_rubies": "2025-04-12 16:49:19 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/blast_furnace/gold_ingot_from_boots": {
+    "criteria": {
+      "has_golden_boots": "2025-04-12 18:11:33 +0000"
     },
     "done": true
   },
@@ -3357,6 +3393,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/industrial_grinder/diamond_dust_from_leggings_with_water": {
+    "criteria": {
+      "has_diamond_leggings": "2025-04-12 18:11:33 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/tool/ruby_hoe": {
     "criteria": {
       "has_ruby_gem": "2025-04-12 16:49:19 +0000"
@@ -3366,6 +3408,12 @@
   "techreborn:recipes/centrifuge/lapis_lazuli": {
     "criteria": {
       "has_lapis_lazuli": "2025-04-12 16:39:04 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/small_dust/cinnabar_small_dust_from_dust": {
+    "criteria": {
+      "has_cinnabar_dust": "2025-04-12 18:03:02 +0000"
     },
     "done": true
   },
@@ -3393,9 +3441,21 @@
     },
     "done": true
   },
+  "techreborn:recipes/compressor/obsidian_plate_from_block": {
+    "criteria": {
+      "has_obsidian": "2025-04-12 18:05:50 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/assembling_machine/netherite_upgrade_smithing_template": {
     "criteria": {
       "has_netherrack": "2025-04-12 17:48:04 +0000"
+    },
+    "done": true
+  },
+  "zenith:affix/epic": {
+    "criteria": {
+      "sword": "2025-04-12 18:11:33 +0000"
     },
     "done": true
   },
@@ -3615,6 +3675,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/industrial_grinder/diamond_dust_from_leggings_with_mercury": {
+    "criteria": {
+      "has_diamond_leggings": "2025-04-12 18:11:33 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/industrial_grinder/bauxite_dust_from_bauxite_ore_with_water": {
     "criteria": {
       "has_tag_c_bauxite_ores": "2025-04-12 16:52:39 +0000"
@@ -3660,6 +3726,12 @@
   "techreborn:recipes/misc/crafting_table/nugget/diamond_nugget": {
     "criteria": {
       "has_diamond": "2025-04-12 16:55:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-04-12 18:05:20 +0000"
     },
     "done": true
   },
@@ -3771,6 +3843,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/industrial_electrolyzer/cinnabar_dust": {
+    "criteria": {
+      "has_cinnabar_dust": "2025-04-12 18:03:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
     "criteria": {
       "has_basalt": "2025-04-12 17:59:10 +0000"
@@ -3828,6 +3906,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-12 16:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-04-12 18:05:50 +0000"
     },
     "done": true
   },
