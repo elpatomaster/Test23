@@ -623,3 +623,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [13:37:19] [Server thread/INFO]: elpatomaster has made the advancement [Not Today, Thank You]
 [13:49:06] [Server thread/INFO]: elpatomaster lost connection: Disconnected
 [13:49:06] [Server thread/INFO]: elpatomaster left the game
+[13:58:34] [Server thread/INFO]: elpatomaster[/10.241.215.23:53425] logged in with entity id 4747 at (1269.7967397946672, 75.0, 1378.7045910328725)
+[13:58:34] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
+[13:58:34] [Server thread/INFO]: elpatomaster joined the game
+[14:01:15] [Server thread/INFO]: elpatomaster has made the advancement [Acquire Hardware]
