@@ -663,3 +663,6 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [17:13:08] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
 [17:13:08] [Server thread/INFO]: elpatomaster joined the game
 [17:13:29] [Server thread/INFO]: Named entity class_1613['Undead Knight'/18691, l='ServerLevel[world]', x=1256.41, y=61.41, z=999.15] died: Undead Knight suffocated in a wall
+[17:14:53] [Server thread/INFO]: [Not Secure] <elpatomaster> xaero-waypoint:ALDEA:A:1270:66:1400:9:false:0:Internal-overworld-waypoints
+[17:21:37] [Server thread/INFO]: Named entity class_1613['Arun the Odd'/21418, l='ServerLevel[world]', x=1279.47, y=63.00, z=1343.30] died: Arun the Odd was slain by Juanchole10
+[17:21:38] [Server thread/INFO]: Juanchole10 has completed the challenge [He Wasn't So Strong]
