@@ -1250,3 +1250,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [03:41:44] [Worker-Main-1/WARN]: Empty height range: [-55 absolute--60 absolute]
 [03:41:44] [Worker-Main-1/WARN]: Empty height range: [-55 absolute--60 absolute]
 [03:41:44] [Worker-Main-1/WARN]: Empty height range: [-55 absolute--60 absolute]
+[03:47:53] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
+[03:47:53] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[03:48:35] [Server thread/INFO]: Made elpatomaster a server operator
+[03:48:39] [Server thread/INFO]: [elpatomaster: Gamerule playersSleepingPercentage is now set to: 0]
+[03:50:26] [Server thread/INFO]: elpatomaster has made the advancement [Monster Hunter]
+[03:52:39] [Server thread/INFO]: Juanchole10[/10.241.66.33:58278] logged in with entity id 2585 at (9.5, 101.0, -46.5)
+[03:52:39] [Server thread/INFO]: Syncing config to Juanchole10 (ac1fe722-2f3c-3b58-a94a-e5d06a7b016d)
+[03:52:39] [Server thread/INFO]: Juanchole10 joined the game
+[03:52:40] [Server thread/INFO]: elpatomaster was shot by Skeleton
+[03:52:54] [Server thread/INFO]: [elpatomaster: Set the time to 1000]
+[03:54:01] [Server thread/INFO]: Juanchole10 was blown up by Creeper
+[03:56:41] [Server thread/WARN]: Tried to load a block entity for block Block{powah:uraninite_ore_poor} but failed at location class_2338{x=578, y=58, z=-196}

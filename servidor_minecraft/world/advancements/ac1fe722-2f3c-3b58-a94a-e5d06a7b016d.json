@@ -213,12 +213,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:savanna": "2025-04-12 03:39:11 +0000"
-    },
-    "done": false
-  },
   "techreborn:recipes/fusion_reactor/iridium_ore": {
     "criteria": {
       "has_lithium": "2025-04-12 03:39:10 +0000",
@@ -235,6 +229,19 @@
   "dml-refabricated:first_join": {
     "criteria": {
       "tick": "2025-04-12 03:39:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2025-04-12 03:54:22 +0000",
+      "minecraft:savanna": "2025-04-12 03:39:11 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-04-12 03:54:01 +0000"
     },
     "done": true
   },
