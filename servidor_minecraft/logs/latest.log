@@ -21973,3 +21973,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [19:41:37] [Server thread/INFO]: elpatomaster burned to death
 [19:45:24] [Server thread/INFO]: elpatomaster lost connection: Disconnected
 [19:45:24] [Server thread/INFO]: elpatomaster left the game
+[20:00:55] [Server thread/INFO]: Named entity class_1613['Honeyed Archer'/53880, l='ServerLevel[world]', x=1204.44, y=94.85, z=1344.03] died: Honeyed Archer was slain by Juanchole10
+[20:02:26] [Server thread/INFO]: Juanchole10 fell from a high place
