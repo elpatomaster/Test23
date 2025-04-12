@@ -21978,3 +21978,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [20:25:23] [Server thread/INFO]: Villager class_1646['Nitwit'/58652, l='ServerLevel[world]', x=1267.59, y=75.00, z=1378.89] died, message: 'Nitwit was slain by Juanchole10'
 [20:25:25] [Server thread/INFO]: Villager class_1646['Toolsmith'/58643, l='ServerLevel[world]', x=1272.29, y=76.00, z=1378.42] died, message: 'Toolsmith was slain by Juanchole10'
 [20:52:30] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:smithing_table} but failed at location class_2338{x=1691, y=77, z=1824}
+[21:07:44] [Server thread/INFO]: Juanchole10 lost connection: Disconnected
+[21:07:44] [Server thread/INFO]: Juanchole10 left the game
