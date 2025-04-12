@@ -2593,6 +2593,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-04-12 17:54:27 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/crafting_table/cable/gold_cable": {
     "criteria": {
       "has_gold_ingot": "2025-04-12 17:20:16 +0000"
@@ -2608,6 +2614,12 @@
   "techreborn:recipes/grinder/saw_small_dust_from_wooden_fences": {
     "criteria": {
       "has_tag_minecraft_wooden_fences": "2025-04-12 17:06:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -2650,6 +2662,18 @@
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-04-12 16:55:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -2722,6 +2746,12 @@
   "techreborn:recipes/misc/crafting_table/armor/silver_helmet": {
     "criteria": {
       "has_silver_ingot": "2025-04-12 17:10:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -2827,9 +2857,21 @@
     },
     "done": true
   },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-04-12 17:54:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-04-12 17:08:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-04-12 17:59:10 +0000"
     },
     "done": true
   },
@@ -2875,9 +2917,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2025-04-12 17:08:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -2971,9 +3025,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/armor/sapphire_boots": {
     "criteria": {
       "has_sapphire_gem": "2025-04-12 16:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -3055,6 +3121,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/blast_furnace/gold_nugget_from_sword": {
+    "criteria": {
+      "has_golden_sword": "2025-04-12 17:54:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2025-04-12 16:55:15 +0000"
@@ -3109,6 +3181,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-04-12 17:59:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2025-04-12 17:10:30 +0000"
@@ -3130,6 +3208,12 @@
   "techreborn:recipes/grinder/raw_gold": {
     "criteria": {
       "has_tag_c_gold_ores": "2025-04-12 17:39:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-04-12 17:55:57 +0000"
     },
     "done": true
   },
@@ -3175,6 +3259,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/industrial_sawmill/oak_pressure_plate_from_slab": {
     "criteria": {
       "has_oak_slab": "2025-04-12 17:32:44 +0000"
@@ -3184,6 +3274,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-12 16:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-04-12 17:54:27 +0000"
     },
     "done": true
   },
@@ -3234,6 +3330,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-04-12 16:59:30 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/glass_bottle_from_splash_potion": {
+    "criteria": {
+      "has_splash_potion": "2025-04-12 17:56:51 +0000"
     },
     "done": true
   },
@@ -3417,6 +3519,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/armor/ruby_helmet": {
     "criteria": {
       "has_ruby_gem": "2025-04-12 16:49:19 +0000"
@@ -3444,6 +3552,12 @@
   "techreborn:recipes/industrial_grinder/galena_dust_from_galena_ore_with_mercury": {
     "criteria": {
       "has_tag_c_galena_ores": "2025-04-12 16:48:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -3513,6 +3627,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-04-12 16:39:18 +0000"
@@ -3543,6 +3663,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-04-12 17:55:57 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/tool/ruby_axe": {
     "criteria": {
       "has_ruby_gem": "2025-04-12 16:49:19 +0000"
@@ -3552,6 +3678,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
     "criteria": {
       "has_cobbled_deepslate": "2025-04-12 16:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -3615,6 +3747,18 @@
     },
     "done": true
   },
+  "techreborn:recipes/industrial_grinder/magma_block_with_water": {
+    "criteria": {
+      "has_magma_block": "2025-04-12 18:02:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/armor/ruby_boots": {
     "criteria": {
       "has_ruby_gem": "2025-04-12 16:49:19 +0000"
@@ -3624,6 +3768,12 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2025-04-12 16:51:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-04-12 17:59:10 +0000"
     },
     "done": true
   },
@@ -3642,6 +3792,12 @@
   "techreborn:recipes/misc/crafting_table/nugget/emerald_nugget": {
     "criteria": {
       "has_emerald": "2025-04-12 17:27:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },
@@ -3726,6 +3882,12 @@
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-04-12 16:48:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-04-12 17:54:59 +0000"
     },
     "done": true
   },

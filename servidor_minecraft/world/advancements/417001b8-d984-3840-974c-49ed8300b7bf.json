@@ -2410,6 +2410,12 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/misc/tiny_tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-04-12 17:59:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-04-12 17:20:15 +0000"
@@ -2443,6 +2449,12 @@
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2025-04-12 17:20:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-04-12 17:59:01 +0000"
     },
     "done": true
   },
@@ -2488,6 +2500,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/blast_furnace/danger_pottery_sherd": {
+    "criteria": {
+      "has_gunpowder": "2025-04-12 17:59:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
       "has_logs": "2025-04-12 17:18:07 +0000"
@@ -2515,6 +2533,12 @@
   "techreborn:recipes/blast_furnace/iron_ingot_from_boots": {
     "criteria": {
       "has_iron_boots": "2025-04-12 17:45:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-04-12 17:59:01 +0000"
     },
     "done": true
   },
