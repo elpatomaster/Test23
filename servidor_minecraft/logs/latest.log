@@ -658,3 +658,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [17:00:50] [Server thread/INFO]: [Not Secure] <elpatomaster> voy a comer
 [17:00:52] [Server thread/INFO]: elpatomaster lost connection: Disconnected
 [17:00:52] [Server thread/INFO]: elpatomaster left the game
+[17:10:01] [Server thread/INFO]: Juanchole10 has made the advancement [Tunnel Treasures]
+[17:13:08] [Server thread/INFO]: elpatomaster[/10.241.215.23:50984] logged in with entity id 19412 at (1267.879800215011, 75.0, 1381.3448797987153)
+[17:13:08] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
+[17:13:08] [Server thread/INFO]: elpatomaster joined the game
+[17:13:29] [Server thread/INFO]: Named entity class_1613['Undead Knight'/18691, l='ServerLevel[world]', x=1256.41, y=61.41, z=999.15] died: Undead Knight suffocated in a wall
