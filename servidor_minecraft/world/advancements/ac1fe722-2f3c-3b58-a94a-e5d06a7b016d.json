@@ -801,6 +801,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-04-12 16:50:13 +0000",
+      "minecraft:ghast": "2025-04-12 18:49:57 +0000",
       "minecraft:magma_cube": "2025-04-12 17:46:54 +0000",
       "minecraft:spider": "2025-04-12 04:44:32 +0000",
       "minecraft:zombified_piglin": "2025-04-12 17:48:28 +0000",
@@ -2629,6 +2630,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-04-12 18:49:56 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/storage_block/nickel_storage_block": {
     "criteria": {
       "has_nickel_ingot": "2025-04-12 17:48:37 +0000"
@@ -3681,6 +3688,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/industrial_electrolyzer/pyrite_dust": {
+    "criteria": {
+      "has_pyrite_dust": "2025-04-12 18:48:48 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/industrial_grinder/diamond_dust_from_leggings_with_mercury": {
     "criteria": {
       "has_diamond_leggings": "2025-04-12 18:11:33 +0000"
@@ -3744,6 +3757,12 @@
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2025-04-12 17:55:57 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/small_dust/pyrite_small_dust_from_dust": {
+    "criteria": {
+      "has_pyrite_dust": "2025-04-12 18:48:48 +0000"
     },
     "done": true
   },
