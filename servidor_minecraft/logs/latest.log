@@ -21971,3 +21971,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [19:36:33] [Worker-Main-282/WARN]: Empty height range: biased[0 above bottom-194 below top inner: 8]
 [19:36:33] [Worker-Main-282/WARN]: Empty height range: biased[0 above bottom-194 below top inner: 8]
 [19:41:37] [Server thread/INFO]: elpatomaster burned to death
+[19:45:24] [Server thread/INFO]: elpatomaster lost connection: Disconnected
+[19:45:24] [Server thread/INFO]: elpatomaster left the game
