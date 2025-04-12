@@ -21975,3 +21975,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [19:45:24] [Server thread/INFO]: elpatomaster left the game
 [20:00:55] [Server thread/INFO]: Named entity class_1613['Honeyed Archer'/53880, l='ServerLevel[world]', x=1204.44, y=94.85, z=1344.03] died: Honeyed Archer was slain by Juanchole10
 [20:02:26] [Server thread/INFO]: Juanchole10 fell from a high place
+[20:25:23] [Server thread/INFO]: Villager class_1646['Nitwit'/58652, l='ServerLevel[world]', x=1267.59, y=75.00, z=1378.89] died, message: 'Nitwit was slain by Juanchole10'
+[20:25:25] [Server thread/INFO]: Villager class_1646['Toolsmith'/58643, l='ServerLevel[world]', x=1272.29, y=76.00, z=1378.42] died, message: 'Toolsmith was slain by Juanchole10'
