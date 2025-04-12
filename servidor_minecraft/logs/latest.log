@@ -636,3 +636,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [14:19:01] [Server thread/INFO]: elpatomaster[/10.241.215.23:54968] logged in with entity id 7512 at (1265.5355304200687, 72.0, 1382.8095772558706)
 [14:19:01] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
 [14:19:01] [Server thread/INFO]: elpatomaster joined the game
+[14:34:37] [Server thread/INFO]: elpatomaster lost connection: Disconnected
+[14:34:37] [Server thread/INFO]: elpatomaster left the game
