@@ -4820,5 +4820,17 @@
     },
     "done": true
   },
+  "techreborn:recipes/industrial_sawmill/saw_dust_from_signs": {
+    "criteria": {
+      "has_tag_minecraft_signs": "2025-04-16 00:43:04 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/grinder/saw_small_dust_from_signs": {
+    "criteria": {
+      "has_tag_minecraft_signs": "2025-04-16 00:43:04 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

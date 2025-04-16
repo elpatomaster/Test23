@@ -620,3 +620,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [00:35:57] [Server thread/INFO]: Juanchole10 joined the game
 [00:40:26] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
 [00:40:26] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[00:45:23] [Server thread/INFO]: elpatomaster[/10.241.215.23:56317] logged in with entity id 1716 at (1263.097773780945, 75.0, 1380.9086502589432)
+[00:45:23] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
+[00:45:23] [Server thread/INFO]: elpatomaster joined the game
+[00:54:02] [Server thread/INFO]: elpatomaster has made the advancement [Ice Bucket Challenge]
