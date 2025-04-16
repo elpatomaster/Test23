@@ -624,3 +624,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 [00:45:23] [Server thread/INFO]: Syncing config to elpatomaster (417001b8-d984-3840-974c-49ed8300b7bf)
 [00:45:23] [Server thread/INFO]: elpatomaster joined the game
 [00:54:02] [Server thread/INFO]: elpatomaster has made the advancement [Ice Bucket Challenge]
+[00:55:21] [Worker-Main-13/WARN]: Empty height range: [-55 absolute--60 absolute]
+[00:55:21] [Worker-Main-13/WARN]: Empty height range: [-55 absolute--60 absolute]
+[00:55:21] [Worker-Main-13/WARN]: Empty height range: [-55 absolute--60 absolute]
+[00:57:25] [Server thread/WARN]: Tried to load a block entity for block Block{powah:uraninite_ore_poor} but failed at location class_2338{x=1358, y=47, z=2119}
+[01:03:12] [Server thread/INFO]: Juanchole10 was slain by Mr. President Zachary
